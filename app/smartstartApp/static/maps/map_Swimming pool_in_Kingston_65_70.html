@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4c67262c2dd84132a79512d8c559d024 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_4c67262c2dd84132a79512d8c559d024" ></div>
+        
+</body>
+<script>    
+    
+            var map_4c67262c2dd84132a79512d8c559d024 = L.map(
+                "map_4c67262c2dd84132a79512d8c559d024",
+                {
+                    center: [44.24, -76.58],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8a3ee99858634b118de98e0be2fa874a = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_4c67262c2dd84132a79512d8c559d024);
+        
+    
+            var marker_f97d3847788d459498a5ea47d53d66ad = L.marker(
+                [44.24527008362592, -76.62336914805057],
+                {}
+            ).addTo(map_4c67262c2dd84132a79512d8c559d024);
+        
+    
+            var icon_b2a45aac32db46669e1a75eb17c0f9ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f97d3847788d459498a5ea47d53d66ad.setIcon(icon_b2a45aac32db46669e1a75eb17c0f9ea);
+        
+    
+        var popup_db1c4ffe503944e0b3156963b410b53c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61f1c625e4e741fd9e032885cecd4b36 = $(`<div id="html_61f1c625e4e741fd9e032885cecd4b36" style="width: 100.0%; height: 100.0%;">PCF = 9.53, PS =7.83</div>`)[0];
+            popup_db1c4ffe503944e0b3156963b410b53c.setContent(html_61f1c625e4e741fd9e032885cecd4b36);
+        
+
+        marker_f97d3847788d459498a5ea47d53d66ad.bindPopup(popup_db1c4ffe503944e0b3156963b410b53c)
+        ;
+
+        
+    
+    
+            var marker_5d061200bdef481482a9893178fd0227 = L.marker(
+                [44.24721866192755, -76.62553567252317],
+                {}
+            ).addTo(map_4c67262c2dd84132a79512d8c559d024);
+        
+    
+            var icon_3f39206ce081450483a767811d878596 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5d061200bdef481482a9893178fd0227.setIcon(icon_3f39206ce081450483a767811d878596);
+        
+    
+        var popup_53b3da1f916b4a72b80e0267d69c4044 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_130a09951ac94f299dc6275c832e1fba = $(`<div id="html_130a09951ac94f299dc6275c832e1fba" style="width: 100.0%; height: 100.0%;">PCF = 9.53, PS =7.98</div>`)[0];
+            popup_53b3da1f916b4a72b80e0267d69c4044.setContent(html_130a09951ac94f299dc6275c832e1fba);
+        
+
+        marker_5d061200bdef481482a9893178fd0227.bindPopup(popup_53b3da1f916b4a72b80e0267d69c4044)
+        ;
+
+        
+    
+    
+            var marker_bcd960a9499e49319dda6d80143eeb98 = L.marker(
+                [44.24721866192755, -76.63041028404751],
+                {}
+            ).addTo(map_4c67262c2dd84132a79512d8c559d024);
+        
+    
+            var icon_cd8ad68da76a493297918a7581f3413b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bcd960a9499e49319dda6d80143eeb98.setIcon(icon_cd8ad68da76a493297918a7581f3413b);
+        
+    
+        var popup_ca562ca6d6b54fca9b5be9802ade3cff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a805b5ca86643c79740b7f3e2c8d62d = $(`<div id="html_0a805b5ca86643c79740b7f3e2c8d62d" style="width: 100.0%; height: 100.0%;">PCF = 9.53, PS =8.31</div>`)[0];
+            popup_ca562ca6d6b54fca9b5be9802ade3cff.setContent(html_0a805b5ca86643c79740b7f3e2c8d62d);
+        
+
+        marker_bcd960a9499e49319dda6d80143eeb98.bindPopup(popup_ca562ca6d6b54fca9b5be9802ade3cff)
+        ;
+
+        
+    
+    
+            var marker_54f4ed1a32de49e1b3d286dafbc0d8a1 = L.marker(
+                [44.247160525339964, -76.63052218630837],
+                {}
+            ).addTo(map_4c67262c2dd84132a79512d8c559d024);
+        
+    
+            var icon_ab2a604f07f44ff6876c7a71e3c33dae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_54f4ed1a32de49e1b3d286dafbc0d8a1.setIcon(icon_ab2a604f07f44ff6876c7a71e3c33dae);
+        
+    
+        var popup_233842a912c445239aaadc27ab35924b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be45dfd3c5564f5f91990d8b363f97d8 = $(`<div id="html_be45dfd3c5564f5f91990d8b363f97d8" style="width: 100.0%; height: 100.0%;">PCF = 9.53, PS =8.32</div>`)[0];
+            popup_233842a912c445239aaadc27ab35924b.setContent(html_be45dfd3c5564f5f91990d8b363f97d8);
+        
+
+        marker_54f4ed1a32de49e1b3d286dafbc0d8a1.bindPopup(popup_233842a912c445239aaadc27ab35924b)
+        ;
+
+        
+    
+    
+            var marker_982fe8554f294da7958c97b81a2fba25 = L.marker(
+                [44.2487970229151, -76.63055619159422],
+                {}
+            ).addTo(map_4c67262c2dd84132a79512d8c559d024);
+        
+    
+            var icon_8549075e386547619cfce6a1fd64ec56 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_982fe8554f294da7958c97b81a2fba25.setIcon(icon_8549075e386547619cfce6a1fd64ec56);
+        
+    
+        var popup_eb1da0b6e59840408b98d7bb24d66e0d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f588d3526164642b284cd9662b8d52f = $(`<div id="html_3f588d3526164642b284cd9662b8d52f" style="width: 100.0%; height: 100.0%;">PCF = 9.53, PS =8.33</div>`)[0];
+            popup_eb1da0b6e59840408b98d7bb24d66e0d.setContent(html_3f588d3526164642b284cd9662b8d52f);
+        
+
+        marker_982fe8554f294da7958c97b81a2fba25.bindPopup(popup_eb1da0b6e59840408b98d7bb24d66e0d)
+        ;
+
+        
+    
+    
+            var marker_4365c39d8fff4e5995fa2e9fbc034632 = L.marker(
+                [44.2345972, -76.4840825],
+                {}
+            ).addTo(map_4c67262c2dd84132a79512d8c559d024);
+        
+    
+            var icon_0d4b0b86aaae483eb3988db6dbcac22c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4365c39d8fff4e5995fa2e9fbc034632.setIcon(icon_0d4b0b86aaae483eb3988db6dbcac22c);
+        
+    
+        var popup_9aaab70ef0d74f3b9568cf2e0c311320 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d92f5d8998c04bb197ff09a9db7094dd = $(`<div id="html_d92f5d8998c04bb197ff09a9db7094dd" style="width: 100.0%; height: 100.0%;">Kingston Culture & Recreation</div>`)[0];
+            popup_9aaab70ef0d74f3b9568cf2e0c311320.setContent(html_d92f5d8998c04bb197ff09a9db7094dd);
+        
+
+        marker_4365c39d8fff4e5995fa2e9fbc034632.bindPopup(popup_9aaab70ef0d74f3b9568cf2e0c311320)
+        ;
+
+        
+    
+    
+            var marker_5706383f8ec248e89f77270c3516c5f3 = L.marker(
+                [44.23669279999999, -76.4678875],
+                {}
+            ).addTo(map_4c67262c2dd84132a79512d8c559d024);
+        
+    
+            var icon_fa100c495ec64004bb7723ed569c0320 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5706383f8ec248e89f77270c3516c5f3.setIcon(icon_fa100c495ec64004bb7723ed569c0320);
+        
+    
+        var popup_de17e5024b644708a19408fc9009d7b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_547d98c6e73848779d78cce8dea6d0d6 = $(`<div id="html_547d98c6e73848779d78cce8dea6d0d6" style="width: 100.0%; height: 100.0%;">Kingston Military Community Sports Centre</div>`)[0];
+            popup_de17e5024b644708a19408fc9009d7b9.setContent(html_547d98c6e73848779d78cce8dea6d0d6);
+        
+
+        marker_5706383f8ec248e89f77270c3516c5f3.bindPopup(popup_de17e5024b644708a19408fc9009d7b9)
+        ;
+
+        
+    
+    
+            var marker_19691233cf7b49d3a89fb9bd4074d561 = L.marker(
+                [44.2812132, -76.4981038],
+                {}
+            ).addTo(map_4c67262c2dd84132a79512d8c559d024);
+        
+    
+            var icon_30056a532c6740349beaaf0825761fb4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_19691233cf7b49d3a89fb9bd4074d561.setIcon(icon_30056a532c6740349beaaf0825761fb4);
+        
+    
+        var popup_dd94ffada0a843dd95c595b56424d18c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9516748c860c45bf910a233dc79f9112 = $(`<div id="html_9516748c860c45bf910a233dc79f9112" style="width: 100.0%; height: 100.0%;">Narellan Pools Canada</div>`)[0];
+            popup_dd94ffada0a843dd95c595b56424d18c.setContent(html_9516748c860c45bf910a233dc79f9112);
+        
+
+        marker_19691233cf7b49d3a89fb9bd4074d561.bindPopup(popup_dd94ffada0a843dd95c595b56424d18c)
+        ;
+
+        
+    
+    
+            var marker_b211a4d577e34c25a452875066f57589 = L.marker(
+                [44.234333, -76.484601],
+                {}
+            ).addTo(map_4c67262c2dd84132a79512d8c559d024);
+        
+    
+            var icon_6ecbee8593b24f99bc9991ac7cddc908 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b211a4d577e34c25a452875066f57589.setIcon(icon_6ecbee8593b24f99bc9991ac7cddc908);
+        
+    
+        var popup_1bee2eb01a8349239c59e3d606e93a06 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0893bc71de0346eea49d5083f455d3c6 = $(`<div id="html_0893bc71de0346eea49d5083f455d3c6" style="width: 100.0%; height: 100.0%;">Artillery Park Aquatic Centre</div>`)[0];
+            popup_1bee2eb01a8349239c59e3d606e93a06.setContent(html_0893bc71de0346eea49d5083f455d3c6);
+        
+
+        marker_b211a4d577e34c25a452875066f57589.bindPopup(popup_1bee2eb01a8349239c59e3d606e93a06)
+        ;
+
+        
+    
+    
+            var marker_7df0741b5bd74565889cc904a4b60431 = L.marker(
+                [44.2402469, -76.5170943],
+                {}
+            ).addTo(map_4c67262c2dd84132a79512d8c559d024);
+        
+    
+            var icon_3975e33df6f04750bdae931a347757ad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7df0741b5bd74565889cc904a4b60431.setIcon(icon_3975e33df6f04750bdae931a347757ad);
+        
+    
+        var popup_9f3a95e334994fb587283006fe0e17c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_701404ea3ddd4a2aa4c2e323654bb591 = $(`<div id="html_701404ea3ddd4a2aa4c2e323654bb591" style="width: 100.0%; height: 100.0%;">YMCA of Kingston</div>`)[0];
+            popup_9f3a95e334994fb587283006fe0e17c2.setContent(html_701404ea3ddd4a2aa4c2e323654bb591);
+        
+
+        marker_7df0741b5bd74565889cc904a4b60431.bindPopup(popup_9f3a95e334994fb587283006fe0e17c2)
+        ;
+
+        
+    
+    
+            var marker_ca2490f52d024cf9948c03e3b9639a97 = L.marker(
+                [44.21893439999999, -76.52094220000002],
+                {}
+            ).addTo(map_4c67262c2dd84132a79512d8c559d024);
+        
+    
+            var icon_bfa6f30cb23349e48880971df15c6f46 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ca2490f52d024cf9948c03e3b9639a97.setIcon(icon_bfa6f30cb23349e48880971df15c6f46);
+        
+    
+        var popup_66ac50893a5b45e5beced5398e8d249d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b346944eac5422eac2772a89cbb160c = $(`<div id="html_0b346944eac5422eac2772a89cbb160c" style="width: 100.0%; height: 100.0%;">Beechgrove Complex Recreation Centre</div>`)[0];
+            popup_66ac50893a5b45e5beced5398e8d249d.setContent(html_0b346944eac5422eac2772a89cbb160c);
+        
+
+        marker_ca2490f52d024cf9948c03e3b9639a97.bindPopup(popup_66ac50893a5b45e5beced5398e8d249d)
+        ;
+
+        
+    
+    
+            var marker_c46d53f5c79a487d9e2ffd1127910b60 = L.marker(
+                [44.229206, -76.49426900000002],
+                {}
+            ).addTo(map_4c67262c2dd84132a79512d8c559d024);
+        
+    
+            var icon_98dc8fb114684c15abc10777552d741a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c46d53f5c79a487d9e2ffd1127910b60.setIcon(icon_98dc8fb114684c15abc10777552d741a);
+        
+    
+        var popup_fcc3cf30707949b49285e2e5c27015ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b802e006541483895dcf62875c657fc = $(`<div id="html_4b802e006541483895dcf62875c657fc" style="width: 100.0%; height: 100.0%;">Queen's Athletics & Recreation Centre (ARC)</div>`)[0];
+            popup_fcc3cf30707949b49285e2e5c27015ed.setContent(html_4b802e006541483895dcf62875c657fc);
+        
+
+        marker_c46d53f5c79a487d9e2ffd1127910b60.bindPopup(popup_fcc3cf30707949b49285e2e5c27015ed)
+        ;
+
+        
+    
+    
+            var marker_c89566bf1809406db0f24a18a378e021 = L.marker(
+                [44.2394149, -76.5462624],
+                {}
+            ).addTo(map_4c67262c2dd84132a79512d8c559d024);
+        
+    
+            var icon_c982cc6c88e04c2a9c2158925fe3e7f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c89566bf1809406db0f24a18a378e021.setIcon(icon_c982cc6c88e04c2a9c2158925fe3e7f2);
+        
+    
+        var popup_fb667d3be6184de6b8b8d1f237ae75da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ccaa51bad68431e8b2ccb339de0f5fd = $(`<div id="html_4ccaa51bad68431e8b2ccb339de0f5fd" style="width: 100.0%; height: 100.0%;">Boys & Girls Club of Kingston & Area</div>`)[0];
+            popup_fb667d3be6184de6b8b8d1f237ae75da.setContent(html_4ccaa51bad68431e8b2ccb339de0f5fd);
+        
+
+        marker_c89566bf1809406db0f24a18a378e021.bindPopup(popup_fb667d3be6184de6b8b8d1f237ae75da)
+        ;
+
+        
+    
+    
+            var marker_2e8ce5da06864f05b0e2bcf28c468706 = L.marker(
+                [44.2464203, -76.5745732],
+                {}
+            ).addTo(map_4c67262c2dd84132a79512d8c559d024);
+        
+    
+            var icon_fe47d170fe2241718fffdb9e1d8dbe44 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2e8ce5da06864f05b0e2bcf28c468706.setIcon(icon_fe47d170fe2241718fffdb9e1d8dbe44);
+        
+    
+        var popup_3c157f04104f4672996f529d51caa9d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf1707963d6240759b6ca3de9b7c72c1 = $(`<div id="html_bf1707963d6240759b6ca3de9b7c72c1" style="width: 100.0%; height: 100.0%;">YMCA West</div>`)[0];
+            popup_3c157f04104f4672996f529d51caa9d1.setContent(html_bf1707963d6240759b6ca3de9b7c72c1);
+        
+
+        marker_2e8ce5da06864f05b0e2bcf28c468706.bindPopup(popup_3c157f04104f4672996f529d51caa9d1)
+        ;
+
+        
+    
+</script>

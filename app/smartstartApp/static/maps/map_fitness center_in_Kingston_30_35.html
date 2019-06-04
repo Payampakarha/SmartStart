@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_54db5301e4dc4d72a81d16f44ef4e686 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_54db5301e4dc4d72a81d16f44ef4e686" ></div>
+        
+</body>
+<script>    
+    
+            var map_54db5301e4dc4d72a81d16f44ef4e686 = L.map(
+                "map_54db5301e4dc4d72a81d16f44ef4e686",
+                {
+                    center: [44.24, -76.58],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9bec39ca83ac4c06983e9df3dacdfd35 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_54db5301e4dc4d72a81d16f44ef4e686);
+        
+    
+            var marker_66cd3ab46967462f982518820f456d18 = L.marker(
+                [44.25923089019568, -76.61018339737441],
+                {}
+            ).addTo(map_54db5301e4dc4d72a81d16f44ef4e686);
+        
+    
+            var icon_8851034f59274be9a9feeb8fdd27ba72 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_66cd3ab46967462f982518820f456d18.setIcon(icon_8851034f59274be9a9feeb8fdd27ba72);
+        
+    
+        var popup_3721a6fe0436467797d525483c5e8edf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6fc561eddc044a188f976d81773f0c11 = $(`<div id="html_6fc561eddc044a188f976d81773f0c11" style="width: 100.0%; height: 100.0%;">PCF = 9.84, PS =6.39</div>`)[0];
+            popup_3721a6fe0436467797d525483c5e8edf.setContent(html_6fc561eddc044a188f976d81773f0c11);
+        
+
+        marker_66cd3ab46967462f982518820f456d18.bindPopup(popup_3721a6fe0436467797d525483c5e8edf)
+        ;
+
+        
+    
+    
+            var marker_6f73ca5453774fc98c44b1f185400e9c = L.marker(
+                [44.24791505157351, -76.4627483288957],
+                {}
+            ).addTo(map_54db5301e4dc4d72a81d16f44ef4e686);
+        
+    
+            var icon_858663344b554c0d91acd7bad3ae1a49 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6f73ca5453774fc98c44b1f185400e9c.setIcon(icon_858663344b554c0d91acd7bad3ae1a49);
+        
+    
+        var popup_e660e1c9b916438fab4c7b157d95ba37 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f5eb2262a524627909dda77d8306606 = $(`<div id="html_8f5eb2262a524627909dda77d8306606" style="width: 100.0%; height: 100.0%;">PCF = 9.69, PS =6.41</div>`)[0];
+            popup_e660e1c9b916438fab4c7b157d95ba37.setContent(html_8f5eb2262a524627909dda77d8306606);
+        
+
+        marker_6f73ca5453774fc98c44b1f185400e9c.bindPopup(popup_e660e1c9b916438fab4c7b157d95ba37)
+        ;
+
+        
+    
+    
+            var marker_55481ef425d345a6b09aea24cac9c88c = L.marker(
+                [44.26153367006678, -76.4643611088076],
+                {}
+            ).addTo(map_54db5301e4dc4d72a81d16f44ef4e686);
+        
+    
+            var icon_5fe44bfb30264e1dbc087ed592815bf9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_55481ef425d345a6b09aea24cac9c88c.setIcon(icon_5fe44bfb30264e1dbc087ed592815bf9);
+        
+    
+        var popup_461486f6732f448bb0605e967dc2de08 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_65015cdf91a8438e902c510bb597477d = $(`<div id="html_65015cdf91a8438e902c510bb597477d" style="width: 100.0%; height: 100.0%;">PCF = 9.69, PS =6.47</div>`)[0];
+            popup_461486f6732f448bb0605e967dc2de08.setContent(html_65015cdf91a8438e902c510bb597477d);
+        
+
+        marker_55481ef425d345a6b09aea24cac9c88c.bindPopup(popup_461486f6732f448bb0605e967dc2de08)
+        ;
+
+        
+    
+    
+            var marker_5b4bcfc32afe4545a5bc8674ce1613fa = L.marker(
+                [44.261024225312006, -76.46391942075215],
+                {}
+            ).addTo(map_54db5301e4dc4d72a81d16f44ef4e686);
+        
+    
+            var icon_5c4d058e0d81433fa0476b2eb24bbb6c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5b4bcfc32afe4545a5bc8674ce1613fa.setIcon(icon_5c4d058e0d81433fa0476b2eb24bbb6c);
+        
+    
+        var popup_7bce0c4c94e84544b1523061f54c046d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_086c4509c58e48428fdde61bea70aafb = $(`<div id="html_086c4509c58e48428fdde61bea70aafb" style="width: 100.0%; height: 100.0%;">PCF = 9.69, PS =6.49</div>`)[0];
+            popup_7bce0c4c94e84544b1523061f54c046d.setContent(html_086c4509c58e48428fdde61bea70aafb);
+        
+
+        marker_5b4bcfc32afe4545a5bc8674ce1613fa.bindPopup(popup_7bce0c4c94e84544b1523061f54c046d)
+        ;
+
+        
+    
+    
+            var marker_aed0a808da5f46ef875d4501b62cc4e1 = L.marker(
+                [44.26153367006678, -76.46391942075215],
+                {}
+            ).addTo(map_54db5301e4dc4d72a81d16f44ef4e686);
+        
+    
+            var icon_b40bd91991704f9a81b2e3c8fcfde4d5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_aed0a808da5f46ef875d4501b62cc4e1.setIcon(icon_b40bd91991704f9a81b2e3c8fcfde4d5);
+        
+    
+        var popup_1fc406b52e6d41ed92fd165fa88a838c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4e6a21a597ba4ed69ac1a0181612d064 = $(`<div id="html_4e6a21a597ba4ed69ac1a0181612d064" style="width: 100.0%; height: 100.0%;">PCF = 9.69, PS =6.5</div>`)[0];
+            popup_1fc406b52e6d41ed92fd165fa88a838c.setContent(html_4e6a21a597ba4ed69ac1a0181612d064);
+        
+
+        marker_aed0a808da5f46ef875d4501b62cc4e1.bindPopup(popup_1fc406b52e6d41ed92fd165fa88a838c)
+        ;
+
+        
+    
+    
+            var marker_ea14aa1109944ce581de4f2ee28cf72d = L.marker(
+                [44.23962239999999, -76.5471006],
+                {}
+            ).addTo(map_54db5301e4dc4d72a81d16f44ef4e686);
+        
+    
+            var icon_47db3f105ebf476191c409265369f340 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ea14aa1109944ce581de4f2ee28cf72d.setIcon(icon_47db3f105ebf476191c409265369f340);
+        
+    
+        var popup_d0e88d4dda414b12bade7e92be4eec58 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d22162397e6429f95f0101723c99675 = $(`<div id="html_8d22162397e6429f95f0101723c99675" style="width: 100.0%; height: 100.0%;">Jazzercise Kingston</div>`)[0];
+            popup_d0e88d4dda414b12bade7e92be4eec58.setContent(html_8d22162397e6429f95f0101723c99675);
+        
+
+        marker_ea14aa1109944ce581de4f2ee28cf72d.bindPopup(popup_d0e88d4dda414b12bade7e92be4eec58)
+        ;
+
+        
+    
+    
+            var marker_961ab869d9444a209385dc812c863793 = L.marker(
+                [44.220073600000006, -76.57091249999998],
+                {}
+            ).addTo(map_54db5301e4dc4d72a81d16f44ef4e686);
+        
+    
+            var icon_c1a50a3dc49949bebb2294b85651a972 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_961ab869d9444a209385dc812c863793.setIcon(icon_c1a50a3dc49949bebb2294b85651a972);
+        
+    
+        var popup_2e0fcda5c42c4e6abc5914805c91a31f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_559bc8b453174acc801fde4e04337d78 = $(`<div id="html_559bc8b453174acc801fde4e04337d78" style="width: 100.0%; height: 100.0%;">Innertouch Fitness and Wellness center</div>`)[0];
+            popup_2e0fcda5c42c4e6abc5914805c91a31f.setContent(html_559bc8b453174acc801fde4e04337d78);
+        
+
+        marker_961ab869d9444a209385dc812c863793.bindPopup(popup_2e0fcda5c42c4e6abc5914805c91a31f)
+        ;
+
+        
+    
+    
+            var marker_ed0c277fe2f84fa284ebe4764dd5fc6a = L.marker(
+                [44.25784760000001, -76.57485849999998],
+                {}
+            ).addTo(map_54db5301e4dc4d72a81d16f44ef4e686);
+        
+    
+            var icon_f3281eee97e4441d93e1ce386f26b277 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ed0c277fe2f84fa284ebe4764dd5fc6a.setIcon(icon_f3281eee97e4441d93e1ce386f26b277);
+        
+    
+        var popup_27131b98664147ea8beaac27985d1910 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c06fefc664a744758e7cc263689901d4 = $(`<div id="html_c06fefc664a744758e7cc263689901d4" style="width: 100.0%; height: 100.0%;">GoodLife Fitness Kingston Norwest Plaza</div>`)[0];
+            popup_27131b98664147ea8beaac27985d1910.setContent(html_c06fefc664a744758e7cc263689901d4);
+        
+
+        marker_ed0c277fe2f84fa284ebe4764dd5fc6a.bindPopup(popup_27131b98664147ea8beaac27985d1910)
+        ;
+
+        
+    
+    
+            var marker_03d87b027f7b4473b35cac77aee12f3c = L.marker(
+                [44.23314269999999, -76.4817255],
+                {}
+            ).addTo(map_54db5301e4dc4d72a81d16f44ef4e686);
+        
+    
+            var icon_358f641e1ffd435f8a0c8a6823b3d2c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_03d87b027f7b4473b35cac77aee12f3c.setIcon(icon_358f641e1ffd435f8a0c8a6823b3d2c6);
+        
+    
+        var popup_6d21245a4a444a8a94c98401ba70f16b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bfe43fcda6464df49fd274ab2894058b = $(`<div id="html_bfe43fcda6464df49fd274ab2894058b" style="width: 100.0%; height: 100.0%;">GoodLife Fitness Kingston Barrack Street</div>`)[0];
+            popup_6d21245a4a444a8a94c98401ba70f16b.setContent(html_bfe43fcda6464df49fd274ab2894058b);
+        
+
+        marker_03d87b027f7b4473b35cac77aee12f3c.bindPopup(popup_6d21245a4a444a8a94c98401ba70f16b)
+        ;
+
+        
+    
+    
+            var marker_e5972ad4f95c4abf847ffb37cee05449 = L.marker(
+                [44.21893439999999, -76.52094220000002],
+                {}
+            ).addTo(map_54db5301e4dc4d72a81d16f44ef4e686);
+        
+    
+            var icon_5a8d09a3db58465eb5a730903c173edc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e5972ad4f95c4abf847ffb37cee05449.setIcon(icon_5a8d09a3db58465eb5a730903c173edc);
+        
+    
+        var popup_fab9cc96fdd34ee4ad548f2b525e08a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b4bd6a1e9c54a66aafbd91a1bd4cea8 = $(`<div id="html_6b4bd6a1e9c54a66aafbd91a1bd4cea8" style="width: 100.0%; height: 100.0%;">Beechgrove Complex Recreation Centre</div>`)[0];
+            popup_fab9cc96fdd34ee4ad548f2b525e08a2.setContent(html_6b4bd6a1e9c54a66aafbd91a1bd4cea8);
+        
+
+        marker_e5972ad4f95c4abf847ffb37cee05449.bindPopup(popup_fab9cc96fdd34ee4ad548f2b525e08a2)
+        ;
+
+        
+    
+    
+            var marker_e8a9d800a42143f396f03b6615448a5e = L.marker(
+                [44.23669279999999, -76.4678875],
+                {}
+            ).addTo(map_54db5301e4dc4d72a81d16f44ef4e686);
+        
+    
+            var icon_afc943d09c354bfc835ee3a9365c5daa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e8a9d800a42143f396f03b6615448a5e.setIcon(icon_afc943d09c354bfc835ee3a9365c5daa);
+        
+    
+        var popup_2329188d93f642e5879d6e5f633285ee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_319f037b88ee446cbe96b051cb5d0f51 = $(`<div id="html_319f037b88ee446cbe96b051cb5d0f51" style="width: 100.0%; height: 100.0%;">Kingston Military Community Sports Centre</div>`)[0];
+            popup_2329188d93f642e5879d6e5f633285ee.setContent(html_319f037b88ee446cbe96b051cb5d0f51);
+        
+
+        marker_e8a9d800a42143f396f03b6615448a5e.bindPopup(popup_2329188d93f642e5879d6e5f633285ee)
+        ;
+
+        
+    
+    
+            var marker_5b5f7c1a1bda42f6801e9bd7856a4d4f = L.marker(
+                [44.2475385, -76.56911130000002],
+                {}
+            ).addTo(map_54db5301e4dc4d72a81d16f44ef4e686);
+        
+    
+            var icon_ae27d852dc8243ff8957ece5f5c98282 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5b5f7c1a1bda42f6801e9bd7856a4d4f.setIcon(icon_ae27d852dc8243ff8957ece5f5c98282);
+        
+    
+        var popup_8fadb67030ee4f4d82b41ac373cc1c22 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01c90782b00a4e86860a58a848d72382 = $(`<div id="html_01c90782b00a4e86860a58a848d72382" style="width: 100.0%; height: 100.0%;">Curves International</div>`)[0];
+            popup_8fadb67030ee4f4d82b41ac373cc1c22.setContent(html_01c90782b00a4e86860a58a848d72382);
+        
+
+        marker_5b5f7c1a1bda42f6801e9bd7856a4d4f.bindPopup(popup_8fadb67030ee4f4d82b41ac373cc1c22)
+        ;
+
+        
+    
+    
+            var marker_4a3b7486bc324b5d971b884e8a2f9009 = L.marker(
+                [44.257631, -76.55535400000002],
+                {}
+            ).addTo(map_54db5301e4dc4d72a81d16f44ef4e686);
+        
+    
+            var icon_91e90558e8f44be2af441789a8fa25f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4a3b7486bc324b5d971b884e8a2f9009.setIcon(icon_91e90558e8f44be2af441789a8fa25f7);
+        
+    
+        var popup_74347c96cd75497a8c7b41ed7e03f39d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a920630957d489584183bbe1600a7b8 = $(`<div id="html_4a920630957d489584183bbe1600a7b8" style="width: 100.0%; height: 100.0%;">Planet Fitness</div>`)[0];
+            popup_74347c96cd75497a8c7b41ed7e03f39d.setContent(html_4a920630957d489584183bbe1600a7b8);
+        
+
+        marker_4a3b7486bc324b5d971b884e8a2f9009.bindPopup(popup_74347c96cd75497a8c7b41ed7e03f39d)
+        ;
+
+        
+    
+    
+            var marker_8bcb5c752ce447f8b9a785a76ca5a9c5 = L.marker(
+                [44.235974, -76.49972489999998],
+                {}
+            ).addTo(map_54db5301e4dc4d72a81d16f44ef4e686);
+        
+    
+            var icon_1744b30a2f32454bb43b089424373781 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8bcb5c752ce447f8b9a785a76ca5a9c5.setIcon(icon_1744b30a2f32454bb43b089424373781);
+        
+    
+        var popup_8800730476c8473281aca5123568716e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_20c564ced1694b85ae7cdae57a710f06 = $(`<div id="html_20c564ced1694b85ae7cdae57a710f06" style="width: 100.0%; height: 100.0%;">Taylored Training Fitness Studio and Physiotherapy</div>`)[0];
+            popup_8800730476c8473281aca5123568716e.setContent(html_20c564ced1694b85ae7cdae57a710f06);
+        
+
+        marker_8bcb5c752ce447f8b9a785a76ca5a9c5.bindPopup(popup_8800730476c8473281aca5123568716e)
+        ;
+
+        
+    
+    
+            var marker_3f87b3526d29480a86121f7cdd030295 = L.marker(
+                [44.26838499999999, -76.565754],
+                {}
+            ).addTo(map_54db5301e4dc4d72a81d16f44ef4e686);
+        
+    
+            var icon_f9db016f182e4478a933144ed3593a04 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3f87b3526d29480a86121f7cdd030295.setIcon(icon_f9db016f182e4478a933144ed3593a04);
+        
+    
+        var popup_b6713405dffd482dbd5322a6c460a889 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c70461261ecb49c293edb3f73bc5630a = $(`<div id="html_c70461261ecb49c293edb3f73bc5630a" style="width: 100.0%; height: 100.0%;">FL Sports</div>`)[0];
+            popup_b6713405dffd482dbd5322a6c460a889.setContent(html_c70461261ecb49c293edb3f73bc5630a);
+        
+
+        marker_3f87b3526d29480a86121f7cdd030295.bindPopup(popup_b6713405dffd482dbd5322a6c460a889)
+        ;
+
+        
+    
+    
+            var marker_68edcdcdf1b74abeaca446d59ffda5c5 = L.marker(
+                [44.23353669999999, -76.4884926],
+                {}
+            ).addTo(map_54db5301e4dc4d72a81d16f44ef4e686);
+        
+    
+            var icon_99f3bea8a02341dd9f66d7fbf1f640e2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_68edcdcdf1b74abeaca446d59ffda5c5.setIcon(icon_99f3bea8a02341dd9f66d7fbf1f640e2);
+        
+    
+        var popup_d3b06de844b7460eba519dfbc8c3cdec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_402fb694c421408fa4333a0ad4ee45a7 = $(`<div id="html_402fb694c421408fa4333a0ad4ee45a7" style="width: 100.0%; height: 100.0%;">CrossFit Queen Street</div>`)[0];
+            popup_d3b06de844b7460eba519dfbc8c3cdec.setContent(html_402fb694c421408fa4333a0ad4ee45a7);
+        
+
+        marker_68edcdcdf1b74abeaca446d59ffda5c5.bindPopup(popup_d3b06de844b7460eba519dfbc8c3cdec)
+        ;
+
+        
+    
+    
+            var marker_ea1bd854963444ff92dcca96adbfa4b4 = L.marker(
+                [44.2414266, -76.4811543],
+                {}
+            ).addTo(map_54db5301e4dc4d72a81d16f44ef4e686);
+        
+    
+            var icon_2fa8cd7083914fd79e2b34d0b52b1cb9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ea1bd854963444ff92dcca96adbfa4b4.setIcon(icon_2fa8cd7083914fd79e2b34d0b52b1cb9);
+        
+    
+        var popup_4d0cab760af644fea9a2d126fff570f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b4612e381424cbe8de3cada5776b6f7 = $(`<div id="html_5b4612e381424cbe8de3cada5776b6f7" style="width: 100.0%; height: 100.0%;">Focus Personal Fitness Studio</div>`)[0];
+            popup_4d0cab760af644fea9a2d126fff570f4.setContent(html_5b4612e381424cbe8de3cada5776b6f7);
+        
+
+        marker_ea1bd854963444ff92dcca96adbfa4b4.bindPopup(popup_4d0cab760af644fea9a2d126fff570f4)
+        ;
+
+        
+    
+    
+            var marker_cbe98b48a29c48f392de8ddce7497483 = L.marker(
+                [44.24313, -76.518188],
+                {}
+            ).addTo(map_54db5301e4dc4d72a81d16f44ef4e686);
+        
+    
+            var icon_1bd00eb12c4b4f189698efcb44067aef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cbe98b48a29c48f392de8ddce7497483.setIcon(icon_1bd00eb12c4b4f189698efcb44067aef);
+        
+    
+        var popup_fbd5779ab38d47e39994076242660bd6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_edbe86627dbd4c998d98352e3cfb049a = $(`<div id="html_edbe86627dbd4c998d98352e3cfb049a" style="width: 100.0%; height: 100.0%;">Fit4Less</div>`)[0];
+            popup_fbd5779ab38d47e39994076242660bd6.setContent(html_edbe86627dbd4c998d98352e3cfb049a);
+        
+
+        marker_cbe98b48a29c48f392de8ddce7497483.bindPopup(popup_fbd5779ab38d47e39994076242660bd6)
+        ;
+
+        
+    
+    
+            var marker_3d28e15947184710808b2390afd419fa = L.marker(
+                [44.2691291, -76.47980909999998],
+                {}
+            ).addTo(map_54db5301e4dc4d72a81d16f44ef4e686);
+        
+    
+            var icon_b799d4dbe9cc4639b21d377ebab7c816 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3d28e15947184710808b2390afd419fa.setIcon(icon_b799d4dbe9cc4639b21d377ebab7c816);
+        
+    
+        var popup_91f3a3ba4382452b97366c13cb038711 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e14933c96354b039bd7f45de309a468 = $(`<div id="html_6e14933c96354b039bd7f45de309a468" style="width: 100.0%; height: 100.0%;">Curves</div>`)[0];
+            popup_91f3a3ba4382452b97366c13cb038711.setContent(html_6e14933c96354b039bd7f45de309a468);
+        
+
+        marker_3d28e15947184710808b2390afd419fa.bindPopup(popup_91f3a3ba4382452b97366c13cb038711)
+        ;
+
+        
+    
+    
+            var marker_c7148878ea5a4be4a40fec5776295c16 = L.marker(
+                [44.2353007, -76.56693220000002],
+                {}
+            ).addTo(map_54db5301e4dc4d72a81d16f44ef4e686);
+        
+    
+            var icon_6f2fb38a98704885a5bb077fc13ed595 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c7148878ea5a4be4a40fec5776295c16.setIcon(icon_6f2fb38a98704885a5bb077fc13ed595);
+        
+    
+        var popup_a6ce7f6c8a47422c8878235ac6dfdb4d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_02452b9614ee45bb8055dff1cfc64871 = $(`<div id="html_02452b9614ee45bb8055dff1cfc64871" style="width: 100.0%; height: 100.0%;">Orangetheory Fitness</div>`)[0];
+            popup_a6ce7f6c8a47422c8878235ac6dfdb4d.setContent(html_02452b9614ee45bb8055dff1cfc64871);
+        
+
+        marker_c7148878ea5a4be4a40fec5776295c16.bindPopup(popup_a6ce7f6c8a47422c8878235ac6dfdb4d)
+        ;
+
+        
+    
+    
+            var marker_a09bd333866b42bb9b853fedf794d095 = L.marker(
+                [44.247625, -76.5695185],
+                {}
+            ).addTo(map_54db5301e4dc4d72a81d16f44ef4e686);
+        
+    
+            var icon_a4b02037231840c4b283ded5b2c064a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a09bd333866b42bb9b853fedf794d095.setIcon(icon_a4b02037231840c4b283ded5b2c064a9);
+        
+    
+        var popup_e51ffe8f294d41a0930dbaf3f4b5fd29 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a71621235cf84f65b7c5d80b411f7a71 = $(`<div id="html_a71621235cf84f65b7c5d80b411f7a71" style="width: 100.0%; height: 100.0%;">24/7 Fitness Kingston</div>`)[0];
+            popup_e51ffe8f294d41a0930dbaf3f4b5fd29.setContent(html_a71621235cf84f65b7c5d80b411f7a71);
+        
+
+        marker_a09bd333866b42bb9b853fedf794d095.bindPopup(popup_e51ffe8f294d41a0930dbaf3f4b5fd29)
+        ;
+
+        
+    
+    
+            var marker_2bdc298bd73847259ebb3a18030fcc68 = L.marker(
+                [44.26672869999999, -76.5528272],
+                {}
+            ).addTo(map_54db5301e4dc4d72a81d16f44ef4e686);
+        
+    
+            var icon_7f3a90ea80a54009a6a0fea6860cea00 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2bdc298bd73847259ebb3a18030fcc68.setIcon(icon_7f3a90ea80a54009a6a0fea6860cea00);
+        
+    
+        var popup_d648f06c56934b87919624f20d736458 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b0f6e3fb6c684fdd9425a0b659f606c9 = $(`<div id="html_b0f6e3fb6c684fdd9425a0b659f606c9" style="width: 100.0%; height: 100.0%;">Sensual Serenity Movement Studio</div>`)[0];
+            popup_d648f06c56934b87919624f20d736458.setContent(html_b0f6e3fb6c684fdd9425a0b659f606c9);
+        
+
+        marker_2bdc298bd73847259ebb3a18030fcc68.bindPopup(popup_d648f06c56934b87919624f20d736458)
+        ;
+
+        
+    
+    
+            var marker_a2ced550f4ab4df7a7a2c1612375c071 = L.marker(
+                [44.2381493, -76.57568049999998],
+                {}
+            ).addTo(map_54db5301e4dc4d72a81d16f44ef4e686);
+        
+    
+            var icon_398440b185ac4e6ca428db5e54b8cf95 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a2ced550f4ab4df7a7a2c1612375c071.setIcon(icon_398440b185ac4e6ca428db5e54b8cf95);
+        
+    
+        var popup_642d045d5fa9431e9b667f597dfe53dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2cd9e31ab73b4011951ea6a1f0971852 = $(`<div id="html_2cd9e31ab73b4011951ea6a1f0971852" style="width: 100.0%; height: 100.0%;">Foundations Training Centre</div>`)[0];
+            popup_642d045d5fa9431e9b667f597dfe53dd.setContent(html_2cd9e31ab73b4011951ea6a1f0971852);
+        
+
+        marker_a2ced550f4ab4df7a7a2c1612375c071.bindPopup(popup_642d045d5fa9431e9b667f597dfe53dd)
+        ;
+
+        
+    
+    
+            var marker_b5bcad53e492465a8e9d915db28fdf4c = L.marker(
+                [44.2622933, -76.5224235],
+                {}
+            ).addTo(map_54db5301e4dc4d72a81d16f44ef4e686);
+        
+    
+            var icon_8b26f22056d648b9947ac272f5a7c8df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b5bcad53e492465a8e9d915db28fdf4c.setIcon(icon_8b26f22056d648b9947ac272f5a7c8df);
+        
+    
+        var popup_883d3ef3db0f4b288ebab29eca563799 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_353867aa69c84d23ad9a10b7a09ad799 = $(`<div id="html_353867aa69c84d23ad9a10b7a09ad799" style="width: 100.0%; height: 100.0%;">Cataraqui Clippers' Club</div>`)[0];
+            popup_883d3ef3db0f4b288ebab29eca563799.setContent(html_353867aa69c84d23ad9a10b7a09ad799);
+        
+
+        marker_b5bcad53e492465a8e9d915db28fdf4c.bindPopup(popup_883d3ef3db0f4b288ebab29eca563799)
+        ;
+
+        
+    
+    
+            var marker_1a29533ba478497dae7224c9e57affac = L.marker(
+                [44.2502555, -76.5322067],
+                {}
+            ).addTo(map_54db5301e4dc4d72a81d16f44ef4e686);
+        
+    
+            var icon_a89934fe28834ad287ea8659e9b2620b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1a29533ba478497dae7224c9e57affac.setIcon(icon_a89934fe28834ad287ea8659e9b2620b);
+        
+    
+        var popup_7e20a34f91a14a42a92b4ff373aa0a50 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3a23694355843af8f76818e7b8be288 = $(`<div id="html_c3a23694355843af8f76818e7b8be288" style="width: 100.0%; height: 100.0%;">Reflections Training Studio</div>`)[0];
+            popup_7e20a34f91a14a42a92b4ff373aa0a50.setContent(html_c3a23694355843af8f76818e7b8be288);
+        
+
+        marker_1a29533ba478497dae7224c9e57affac.bindPopup(popup_7e20a34f91a14a42a92b4ff373aa0a50)
+        ;
+
+        
+    
+    
+            var marker_bbc01945ce5d42e088a2c59d8f91ee9f = L.marker(
+                [44.240907, -76.504451],
+                {}
+            ).addTo(map_54db5301e4dc4d72a81d16f44ef4e686);
+        
+    
+            var icon_07bd00e783424f969b534706193550e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bbc01945ce5d42e088a2c59d8f91ee9f.setIcon(icon_07bd00e783424f969b534706193550e4);
+        
+    
+        var popup_280650abc97340718f4e3814f8d5c3dc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed54e3ef37ee4cee82e6bc6e296eb7df = $(`<div id="html_ed54e3ef37ee4cee82e6bc6e296eb7df" style="width: 100.0%; height: 100.0%;">Whipped Fitness</div>`)[0];
+            popup_280650abc97340718f4e3814f8d5c3dc.setContent(html_ed54e3ef37ee4cee82e6bc6e296eb7df);
+        
+
+        marker_bbc01945ce5d42e088a2c59d8f91ee9f.bindPopup(popup_280650abc97340718f4e3814f8d5c3dc)
+        ;
+
+        
+    
+    
+            var marker_64a20a45cdc84084abeacf2f8c33e048 = L.marker(
+                [44.2725822, -76.56751419999998],
+                {}
+            ).addTo(map_54db5301e4dc4d72a81d16f44ef4e686);
+        
+    
+            var icon_c48a33314d214d9e8b80670d677aa9e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_64a20a45cdc84084abeacf2f8c33e048.setIcon(icon_c48a33314d214d9e8b80670d677aa9e3);
+        
+    
+        var popup_5405507a2af94ea98706632fe0e4f391 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9bde352a3c5f46b9a7a0e03f6d54e609 = $(`<div id="html_9bde352a3c5f46b9a7a0e03f6d54e609" style="width: 100.0%; height: 100.0%;">Energetics Health & Fitness</div>`)[0];
+            popup_5405507a2af94ea98706632fe0e4f391.setContent(html_9bde352a3c5f46b9a7a0e03f6d54e609);
+        
+
+        marker_64a20a45cdc84084abeacf2f8c33e048.bindPopup(popup_5405507a2af94ea98706632fe0e4f391)
+        ;
+
+        
+    
+    
+            var marker_650ef5774c9b418e993e6dd4c484e4cc = L.marker(
+                [44.2343126, -76.5235335],
+                {}
+            ).addTo(map_54db5301e4dc4d72a81d16f44ef4e686);
+        
+    
+            var icon_9b11171f8d6a4510a92fbad0c97f01d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_650ef5774c9b418e993e6dd4c484e4cc.setIcon(icon_9b11171f8d6a4510a92fbad0c97f01d9);
+        
+    
+        var popup_c49fdae74e4f434ea374037ca757b0ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cc10544c87eb4ac3ace10e2d154e89d7 = $(`<div id="html_cc10544c87eb4ac3ace10e2d154e89d7" style="width: 100.0%; height: 100.0%;">kingston table tennis club</div>`)[0];
+            popup_c49fdae74e4f434ea374037ca757b0ff.setContent(html_cc10544c87eb4ac3ace10e2d154e89d7);
+        
+
+        marker_650ef5774c9b418e993e6dd4c484e4cc.bindPopup(popup_c49fdae74e4f434ea374037ca757b0ff)
+        ;
+
+        
+    
+    
+            var marker_ebe2c934af514b4bb454d0c798cb06f1 = L.marker(
+                [44.26002709999999, -76.5038572],
+                {}
+            ).addTo(map_54db5301e4dc4d72a81d16f44ef4e686);
+        
+    
+            var icon_2ad81db5d54a405b9c52c1b51e896597 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ebe2c934af514b4bb454d0c798cb06f1.setIcon(icon_2ad81db5d54a405b9c52c1b51e896597);
+        
+    
+        var popup_ece69f03ac664ff4b5e3c11085c5f966 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_11b60a5b73e54c04a6d8fd27f26e5732 = $(`<div id="html_11b60a5b73e54c04a6d8fd27f26e5732" style="width: 100.0%; height: 100.0%;">CrossFit Limestone</div>`)[0];
+            popup_ece69f03ac664ff4b5e3c11085c5f966.setContent(html_11b60a5b73e54c04a6d8fd27f26e5732);
+        
+
+        marker_ebe2c934af514b4bb454d0c798cb06f1.bindPopup(popup_ece69f03ac664ff4b5e3c11085c5f966)
+        ;
+
+        
+    
+    
+            var marker_bb7a96a448554012a45fa4e4820335b6 = L.marker(
+                [44.2578553, -76.5748478],
+                {}
+            ).addTo(map_54db5301e4dc4d72a81d16f44ef4e686);
+        
+    
+            var icon_d43a21fe2a82456f8ee34e3f4770b9fa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bb7a96a448554012a45fa4e4820335b6.setIcon(icon_d43a21fe2a82456f8ee34e3f4770b9fa);
+        
+    
+        var popup_a59033386e434f3dbf319afd76f105a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b9eb40d338934a41b8a3c914153fc75b = $(`<div id="html_b9eb40d338934a41b8a3c914153fc75b" style="width: 100.0%; height: 100.0%;">Kingston Norwest Club</div>`)[0];
+            popup_a59033386e434f3dbf319afd76f105a5.setContent(html_b9eb40d338934a41b8a3c914153fc75b);
+        
+
+        marker_bb7a96a448554012a45fa4e4820335b6.bindPopup(popup_a59033386e434f3dbf319afd76f105a5)
+        ;
+
+        
+    
+    
+            var marker_6483c69f7fec47bc91767d22147551aa = L.marker(
+                [44.2490845, -76.5733156],
+                {}
+            ).addTo(map_54db5301e4dc4d72a81d16f44ef4e686);
+        
+    
+            var icon_e39b23a672524d059f161969897538df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6483c69f7fec47bc91767d22147551aa.setIcon(icon_e39b23a672524d059f161969897538df);
+        
+    
+        var popup_db7a72cc6cab49379035998b87b808b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a9af4f647ad4c6ca5cb60080a669e01 = $(`<div id="html_8a9af4f647ad4c6ca5cb60080a669e01" style="width: 100.0%; height: 100.0%;">613 Fitness</div>`)[0];
+            popup_db7a72cc6cab49379035998b87b808b1.setContent(html_8a9af4f647ad4c6ca5cb60080a669e01);
+        
+
+        marker_6483c69f7fec47bc91767d22147551aa.bindPopup(popup_db7a72cc6cab49379035998b87b808b1)
+        ;
+
+        
+    
+    
+            var marker_85f83b5768f34eb2b6f14d09cf4d56c4 = L.marker(
+                [44.2464203, -76.5745732],
+                {}
+            ).addTo(map_54db5301e4dc4d72a81d16f44ef4e686);
+        
+    
+            var icon_d15de4a0c5fa476295427c743c4cc902 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_85f83b5768f34eb2b6f14d09cf4d56c4.setIcon(icon_d15de4a0c5fa476295427c743c4cc902);
+        
+    
+        var popup_d7da3967697949f18096f487794b7640 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee6819d350c7482a94c23b97d2ce5b27 = $(`<div id="html_ee6819d350c7482a94c23b97d2ce5b27" style="width: 100.0%; height: 100.0%;">YMCA West</div>`)[0];
+            popup_d7da3967697949f18096f487794b7640.setContent(html_ee6819d350c7482a94c23b97d2ce5b27);
+        
+
+        marker_85f83b5768f34eb2b6f14d09cf4d56c4.bindPopup(popup_d7da3967697949f18096f487794b7640)
+        ;
+
+        
+    
+    
+            var marker_db979ea390a7442682069013c04ab6eb = L.marker(
+                [44.2621005, -76.56819279999998],
+                {}
+            ).addTo(map_54db5301e4dc4d72a81d16f44ef4e686);
+        
+    
+            var icon_32e181e4cb3f4c268a1a68709d4dbeea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_db979ea390a7442682069013c04ab6eb.setIcon(icon_32e181e4cb3f4c268a1a68709d4dbeea);
+        
+    
+        var popup_1fb0aaed566c4d7f81b0bbe69e9ffa7c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_795360b0ac844f4e9b546f2cefd147a3 = $(`<div id="html_795360b0ac844f4e9b546f2cefd147a3" style="width: 100.0%; height: 100.0%;">Kwik Fit Kingston</div>`)[0];
+            popup_1fb0aaed566c4d7f81b0bbe69e9ffa7c.setContent(html_795360b0ac844f4e9b546f2cefd147a3);
+        
+
+        marker_db979ea390a7442682069013c04ab6eb.bindPopup(popup_1fb0aaed566c4d7f81b0bbe69e9ffa7c)
+        ;
+
+        
+    
+</script>

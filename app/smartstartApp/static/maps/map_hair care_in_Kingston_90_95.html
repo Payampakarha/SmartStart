@@ -1,0 +1,1338 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_359390e25e7b49b78abbdd7410ebe0a0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_359390e25e7b49b78abbdd7410ebe0a0" ></div>
+        
+</body>
+<script>    
+    
+            var map_359390e25e7b49b78abbdd7410ebe0a0 = L.map(
+                "map_359390e25e7b49b78abbdd7410ebe0a0",
+                {
+                    center: [44.24, -76.58],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e454d536f75a44c29fc74f75e40f1d28 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var marker_c8b88de0e4b44dccb10f11aeaa16706a = L.marker(
+                [44.27628605629377, -76.64987038897304],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_accfa912606d4f68950342b5c7487bf2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c8b88de0e4b44dccb10f11aeaa16706a.setIcon(icon_accfa912606d4f68950342b5c7487bf2);
+        
+    
+        var popup_7252a0857b624c5595a5cd8b0e6ca679 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d80c89300e2743758423aef8379a144d = $(`<div id="html_d80c89300e2743758423aef8379a144d" style="width: 100.0%; height: 100.0%;">PCF = 9.46, PS =9.96</div>`)[0];
+            popup_7252a0857b624c5595a5cd8b0e6ca679.setContent(html_d80c89300e2743758423aef8379a144d);
+        
+
+        marker_c8b88de0e4b44dccb10f11aeaa16706a.bindPopup(popup_7252a0857b624c5595a5cd8b0e6ca679)
+        ;
+
+        
+    
+    
+            var marker_9acc3252fdcc4d959991a30f5e5fa94a = L.marker(
+                [44.27682304689329, -76.64990267543156],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_3ea7546aee6646169c0895a1c11f5e5c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9acc3252fdcc4d959991a30f5e5fa94a.setIcon(icon_3ea7546aee6646169c0895a1c11f5e5c);
+        
+    
+        var popup_117e1a3c0ee94f26ad7a1525c34efa1f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db4b14e7888f44e8b717cb89e767dc44 = $(`<div id="html_db4b14e7888f44e8b717cb89e767dc44" style="width: 100.0%; height: 100.0%;">PCF = 9.46, PS =9.97</div>`)[0];
+            popup_117e1a3c0ee94f26ad7a1525c34efa1f.setContent(html_db4b14e7888f44e8b717cb89e767dc44);
+        
+
+        marker_9acc3252fdcc4d959991a30f5e5fa94a.bindPopup(popup_117e1a3c0ee94f26ad7a1525c34efa1f)
+        ;
+
+        
+    
+    
+            var marker_c8e893a67df14e5b95e4641456239455 = L.marker(
+                [44.278198797250354, -76.64949340311227],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_5f171b2c5e1a4769b9985a6db5a9a724 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c8e893a67df14e5b95e4641456239455.setIcon(icon_5f171b2c5e1a4769b9985a6db5a9a724);
+        
+    
+        var popup_c77fba6e63b243119e6a9c3b0c6feb24 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53eb5ed9d5a04da1b5cbdacdb977dad2 = $(`<div id="html_53eb5ed9d5a04da1b5cbdacdb977dad2" style="width: 100.0%; height: 100.0%;">PCF = 9.46, PS =9.97</div>`)[0];
+            popup_c77fba6e63b243119e6a9c3b0c6feb24.setContent(html_53eb5ed9d5a04da1b5cbdacdb977dad2);
+        
+
+        marker_c8e893a67df14e5b95e4641456239455.bindPopup(popup_c77fba6e63b243119e6a9c3b0c6feb24)
+        ;
+
+        
+    
+    
+            var marker_d6d28a8a760642cc864f616bd7f13cbb = L.marker(
+                [44.278198797250354, -76.64949340311227],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_32ba8ee63a164f78ba122c986c33b316 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d6d28a8a760642cc864f616bd7f13cbb.setIcon(icon_32ba8ee63a164f78ba122c986c33b316);
+        
+    
+        var popup_238720ac6f7249479d6199ec9ce3b0fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64f94cf1487b41a2940be666e106124e = $(`<div id="html_64f94cf1487b41a2940be666e106124e" style="width: 100.0%; height: 100.0%;">PCF = 9.46, PS =9.97</div>`)[0];
+            popup_238720ac6f7249479d6199ec9ce3b0fb.setContent(html_64f94cf1487b41a2940be666e106124e);
+        
+
+        marker_d6d28a8a760642cc864f616bd7f13cbb.bindPopup(popup_238720ac6f7249479d6199ec9ce3b0fb)
+        ;
+
+        
+    
+    
+            var marker_94d88b47021f4e2e96cd215b911b59a6 = L.marker(
+                [44.278198797250354, -76.64949340311227],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_7e4b6407ccfe4b5dabf388b2d4581606 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_94d88b47021f4e2e96cd215b911b59a6.setIcon(icon_7e4b6407ccfe4b5dabf388b2d4581606);
+        
+    
+        var popup_bdef556da1cf407bb98409c8bcf2c5d3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c669123e7cc74f3587185e72a7699556 = $(`<div id="html_c669123e7cc74f3587185e72a7699556" style="width: 100.0%; height: 100.0%;">PCF = 9.46, PS =9.97</div>`)[0];
+            popup_bdef556da1cf407bb98409c8bcf2c5d3.setContent(html_c669123e7cc74f3587185e72a7699556);
+        
+
+        marker_94d88b47021f4e2e96cd215b911b59a6.bindPopup(popup_bdef556da1cf407bb98409c8bcf2c5d3)
+        ;
+
+        
+    
+    
+            var marker_a4ffd39a96df4d2bacca51915e1a419b = L.marker(
+                [44.2426048, -76.51586669999998],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_2032eea2382a4ee9876fd22542d82562 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a4ffd39a96df4d2bacca51915e1a419b.setIcon(icon_2032eea2382a4ee9876fd22542d82562);
+        
+    
+        var popup_13d6a39419d24d2fb79fee92cf491bb7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d1b9b38578d45b2841bb1bce9ab8aea = $(`<div id="html_8d1b9b38578d45b2841bb1bce9ab8aea" style="width: 100.0%; height: 100.0%;">Bellagio Hair & Skin Care</div>`)[0];
+            popup_13d6a39419d24d2fb79fee92cf491bb7.setContent(html_8d1b9b38578d45b2841bb1bce9ab8aea);
+        
+
+        marker_a4ffd39a96df4d2bacca51915e1a419b.bindPopup(popup_13d6a39419d24d2fb79fee92cf491bb7)
+        ;
+
+        
+    
+    
+            var marker_2d8c3c746e1d4b559ef5611bb999cb1a = L.marker(
+                [44.24886770000001, -76.56770490000002],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_3d72911e33cf4b2896700897dc3792d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2d8c3c746e1d4b559ef5611bb999cb1a.setIcon(icon_3d72911e33cf4b2896700897dc3792d7);
+        
+    
+        var popup_26197c517640412e9d52615ebc918d9a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f5b0e29107441a2978a89e598af43f3 = $(`<div id="html_3f5b0e29107441a2978a89e598af43f3" style="width: 100.0%; height: 100.0%;">James Brett Coiffure</div>`)[0];
+            popup_26197c517640412e9d52615ebc918d9a.setContent(html_3f5b0e29107441a2978a89e598af43f3);
+        
+
+        marker_2d8c3c746e1d4b559ef5611bb999cb1a.bindPopup(popup_26197c517640412e9d52615ebc918d9a)
+        ;
+
+        
+    
+    
+            var marker_188389a1b8bb46fab5646a78381cab23 = L.marker(
+                [44.2352745, -76.48146340000002],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_fbb898287d434270975c0c1b0e516e02 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_188389a1b8bb46fab5646a78381cab23.setIcon(icon_fbb898287d434270975c0c1b0e516e02);
+        
+    
+        var popup_30387b45718049a6b987f25ea7e84ad9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba26f528894e4fa0aa59fc4c9729c430 = $(`<div id="html_ba26f528894e4fa0aa59fc4c9729c430" style="width: 100.0%; height: 100.0%;">Advanced Therapeutic Skin Care Centre</div>`)[0];
+            popup_30387b45718049a6b987f25ea7e84ad9.setContent(html_ba26f528894e4fa0aa59fc4c9729c430);
+        
+
+        marker_188389a1b8bb46fab5646a78381cab23.bindPopup(popup_30387b45718049a6b987f25ea7e84ad9)
+        ;
+
+        
+    
+    
+            var marker_b2febb4ad3554f93bb96d83998e7bb6e = L.marker(
+                [44.231079, -76.48133399999998],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_50ecb157cb914ebdb27fe56ed7b9e1b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b2febb4ad3554f93bb96d83998e7bb6e.setIcon(icon_50ecb157cb914ebdb27fe56ed7b9e1b9);
+        
+    
+        var popup_dc4e413558c04c029ac5a9d6f8c523f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd017d972864475f9db1a86a1a5be72a = $(`<div id="html_cd017d972864475f9db1a86a1a5be72a" style="width: 100.0%; height: 100.0%;">CHIC Hair and Esthetics Centre</div>`)[0];
+            popup_dc4e413558c04c029ac5a9d6f8c523f4.setContent(html_cd017d972864475f9db1a86a1a5be72a);
+        
+
+        marker_b2febb4ad3554f93bb96d83998e7bb6e.bindPopup(popup_dc4e413558c04c029ac5a9d6f8c523f4)
+        ;
+
+        
+    
+    
+            var marker_0846768a652646a6a2e165cef6330e59 = L.marker(
+                [44.2370184, -76.5790901],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_01533e3d4067414f84c6324366da8f87 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0846768a652646a6a2e165cef6330e59.setIcon(icon_01533e3d4067414f84c6324366da8f87);
+        
+    
+        var popup_04f57acaf3614e8e9b13fbfb8aacfa43 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b624652f3a0648bd9c6f29a52691a8cc = $(`<div id="html_b624652f3a0648bd9c6f29a52691a8cc" style="width: 100.0%; height: 100.0%;">You Be U Hair & Esthetics Salon</div>`)[0];
+            popup_04f57acaf3614e8e9b13fbfb8aacfa43.setContent(html_b624652f3a0648bd9c6f29a52691a8cc);
+        
+
+        marker_0846768a652646a6a2e165cef6330e59.bindPopup(popup_04f57acaf3614e8e9b13fbfb8aacfa43)
+        ;
+
+        
+    
+    
+            var marker_79e57b6bf40540faabd19ac36c7c76fb = L.marker(
+                [44.2325926, -76.4896223],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_a345d41c387c4e94ae8ddb434677bf78 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_79e57b6bf40540faabd19ac36c7c76fb.setIcon(icon_a345d41c387c4e94ae8ddb434677bf78);
+        
+    
+        var popup_24e6e532e1fa43299bab84a7d7b9dc54 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_24eba1c84b8a493e8ee14b5505a8330f = $(`<div id="html_24eba1c84b8a493e8ee14b5505a8330f" style="width: 100.0%; height: 100.0%;">Envy Hair Studio</div>`)[0];
+            popup_24e6e532e1fa43299bab84a7d7b9dc54.setContent(html_24eba1c84b8a493e8ee14b5505a8330f);
+        
+
+        marker_79e57b6bf40540faabd19ac36c7c76fb.bindPopup(popup_24e6e532e1fa43299bab84a7d7b9dc54)
+        ;
+
+        
+    
+    
+            var marker_44db73ec7d8948479957bd0310135f77 = L.marker(
+                [44.2563363, -76.57217100000003],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_a906692907174bd3ad683751b58114a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_44db73ec7d8948479957bd0310135f77.setIcon(icon_a906692907174bd3ad683751b58114a9);
+        
+    
+        var popup_53f1baa4e6714ce7b37656ec08dfad5c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_33e621c852164aba9ec8172baab1576e = $(`<div id="html_33e621c852164aba9ec8172baab1576e" style="width: 100.0%; height: 100.0%;">Chatters Hair Salon</div>`)[0];
+            popup_53f1baa4e6714ce7b37656ec08dfad5c.setContent(html_33e621c852164aba9ec8172baab1576e);
+        
+
+        marker_44db73ec7d8948479957bd0310135f77.bindPopup(popup_53f1baa4e6714ce7b37656ec08dfad5c)
+        ;
+
+        
+    
+    
+            var marker_7c2d6ca40e114597a54da26fe80f49fc = L.marker(
+                [44.2328529, -76.4874353],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_0b23da06c8c04f7ebb03bb2b088e1e16 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7c2d6ca40e114597a54da26fe80f49fc.setIcon(icon_0b23da06c8c04f7ebb03bb2b088e1e16);
+        
+    
+        var popup_abab9d93ee2d4666bac31e899eb0c8af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e970ce8f7554eed90b110ea0ee80b85 = $(`<div id="html_8e970ce8f7554eed90b110ea0ee80b85" style="width: 100.0%; height: 100.0%;">Platinum Hair Lounge</div>`)[0];
+            popup_abab9d93ee2d4666bac31e899eb0c8af.setContent(html_8e970ce8f7554eed90b110ea0ee80b85);
+        
+
+        marker_7c2d6ca40e114597a54da26fe80f49fc.bindPopup(popup_abab9d93ee2d4666bac31e899eb0c8af)
+        ;
+
+        
+    
+    
+            var marker_2a87ca1cafa9439fa30ea8c73025afde = L.marker(
+                [44.233272, -76.48211309999998],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_fb59d24a726343d286ab6f125c92e229 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2a87ca1cafa9439fa30ea8c73025afde.setIcon(icon_fb59d24a726343d286ab6f125c92e229);
+        
+    
+        var popup_712d24ba7c95470e920fe6e404c12d38 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d47ee6e40b1421299a75978ebd56888 = $(`<div id="html_9d47ee6e40b1421299a75978ebd56888" style="width: 100.0%; height: 100.0%;">Kirisma Boutique Hair Studio</div>`)[0];
+            popup_712d24ba7c95470e920fe6e404c12d38.setContent(html_9d47ee6e40b1421299a75978ebd56888);
+        
+
+        marker_2a87ca1cafa9439fa30ea8c73025afde.bindPopup(popup_712d24ba7c95470e920fe6e404c12d38)
+        ;
+
+        
+    
+    
+            var marker_09c3bfededa84680a4511c7f109318be = L.marker(
+                [44.2342421, -76.494385],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_61c30b469883415bb8d704d537010801 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_09c3bfededa84680a4511c7f109318be.setIcon(icon_61c30b469883415bb8d704d537010801);
+        
+    
+        var popup_ba2c7c4b0fa547e8bb8017339666d755 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba10cd5f8c984d2bbede1982b79959e0 = $(`<div id="html_ba10cd5f8c984d2bbede1982b79959e0" style="width: 100.0%; height: 100.0%;">Bellagio Hair Studio</div>`)[0];
+            popup_ba2c7c4b0fa547e8bb8017339666d755.setContent(html_ba10cd5f8c984d2bbede1982b79959e0);
+        
+
+        marker_09c3bfededa84680a4511c7f109318be.bindPopup(popup_ba2c7c4b0fa547e8bb8017339666d755)
+        ;
+
+        
+    
+    
+            var marker_2ad1c8de4fab431597109120e9a1f083 = L.marker(
+                [44.231154, -76.479117],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_120ba635d221478dbc72ddf0ef3b9f7e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2ad1c8de4fab431597109120e9a1f083.setIcon(icon_120ba635d221478dbc72ddf0ef3b9f7e);
+        
+    
+        var popup_51c31fb57164421c804fcc1a4159d21a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7283a01694c54ff38c7b508021a6ca99 = $(`<div id="html_7283a01694c54ff38c7b508021a6ca99" style="width: 100.0%; height: 100.0%;">Blunt Hair Studio</div>`)[0];
+            popup_51c31fb57164421c804fcc1a4159d21a.setContent(html_7283a01694c54ff38c7b508021a6ca99);
+        
+
+        marker_2ad1c8de4fab431597109120e9a1f083.bindPopup(popup_51c31fb57164421c804fcc1a4159d21a)
+        ;
+
+        
+    
+    
+            var marker_7257f70af9044de48df9dbb4cd5da57a = L.marker(
+                [44.2528929, -76.56810540000002],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_a18edd2f276c49caa362d49bf4365d40 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7257f70af9044de48df9dbb4cd5da57a.setIcon(icon_a18edd2f276c49caa362d49bf4365d40);
+        
+    
+        var popup_6b8453d8ebfe487c96a460825337eb95 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e961265fc38148f8862a24ba3e27e1c8 = $(`<div id="html_e961265fc38148f8862a24ba3e27e1c8" style="width: 100.0%; height: 100.0%;">TG.co Hair Studio</div>`)[0];
+            popup_6b8453d8ebfe487c96a460825337eb95.setContent(html_e961265fc38148f8862a24ba3e27e1c8);
+        
+
+        marker_7257f70af9044de48df9dbb4cd5da57a.bindPopup(popup_6b8453d8ebfe487c96a460825337eb95)
+        ;
+
+        
+    
+    
+            var marker_cf1e9113bdb44f31ac5a634daa3f6b9c = L.marker(
+                [44.2314459, -76.4797522],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_05ff59a8d3b84ba9896c6827361950f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cf1e9113bdb44f31ac5a634daa3f6b9c.setIcon(icon_05ff59a8d3b84ba9896c6827361950f3);
+        
+    
+        var popup_3ef2f7eb892c4e05b163e3577133a676 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e49e7863019542ae933832fffcde1f34 = $(`<div id="html_e49e7863019542ae933832fffcde1f34" style="width: 100.0%; height: 100.0%;">The Loft Hair Studio</div>`)[0];
+            popup_3ef2f7eb892c4e05b163e3577133a676.setContent(html_e49e7863019542ae933832fffcde1f34);
+        
+
+        marker_cf1e9113bdb44f31ac5a634daa3f6b9c.bindPopup(popup_3ef2f7eb892c4e05b163e3577133a676)
+        ;
+
+        
+    
+    
+            var marker_87575ce707074a5ca87ef341ce5343c2 = L.marker(
+                [44.2308828, -76.4797157],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_dcaaad57b7b94e2882c1be4cc6be3182 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_87575ce707074a5ca87ef341ce5343c2.setIcon(icon_dcaaad57b7b94e2882c1be4cc6be3182);
+        
+    
+        var popup_1bbcea4b46c640a591bc36a6cb7aa9ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de8f1e6593ce455a831fcb6f248e2420 = $(`<div id="html_de8f1e6593ce455a831fcb6f248e2420" style="width: 100.0%; height: 100.0%;">Jimmy Hair Studio</div>`)[0];
+            popup_1bbcea4b46c640a591bc36a6cb7aa9ed.setContent(html_de8f1e6593ce455a831fcb6f248e2420);
+        
+
+        marker_87575ce707074a5ca87ef341ce5343c2.bindPopup(popup_1bbcea4b46c640a591bc36a6cb7aa9ed)
+        ;
+
+        
+    
+    
+            var marker_4010ce052b084f73a55e5c05f8fb71e6 = L.marker(
+                [44.24375029999999, -76.5687228],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_d2b0dd4611824d68a6165ca97ad90272 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4010ce052b084f73a55e5c05f8fb71e6.setIcon(icon_d2b0dd4611824d68a6165ca97ad90272);
+        
+    
+        var popup_6c6cceceef62454891a5ae516a5915a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6fbb150028ba4aaf8ea4317a89445c0f = $(`<div id="html_6fbb150028ba4aaf8ea4317a89445c0f" style="width: 100.0%; height: 100.0%;">Gloss Hair Studio</div>`)[0];
+            popup_6c6cceceef62454891a5ae516a5915a6.setContent(html_6fbb150028ba4aaf8ea4317a89445c0f);
+        
+
+        marker_4010ce052b084f73a55e5c05f8fb71e6.bindPopup(popup_6c6cceceef62454891a5ae516a5915a6)
+        ;
+
+        
+    
+    
+            var marker_bded27660bc04a9b93fb0021ac3bff5a = L.marker(
+                [44.24080770000001, -76.57929859999999],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_239b2d0c5b274b82beb42f854e87ffe5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bded27660bc04a9b93fb0021ac3bff5a.setIcon(icon_239b2d0c5b274b82beb42f854e87ffe5);
+        
+    
+        var popup_d6bba027ecca4774a1cd690fe6ee4ae6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e88f386beda847ff8506ba9a5edc1ab4 = $(`<div id="html_e88f386beda847ff8506ba9a5edc1ab4" style="width: 100.0%; height: 100.0%;">Mackenzie Hair & Esthetics</div>`)[0];
+            popup_d6bba027ecca4774a1cd690fe6ee4ae6.setContent(html_e88f386beda847ff8506ba9a5edc1ab4);
+        
+
+        marker_bded27660bc04a9b93fb0021ac3bff5a.bindPopup(popup_d6bba027ecca4774a1cd690fe6ee4ae6)
+        ;
+
+        
+    
+    
+            var marker_7089c56b61514503971209ad5c8f5e91 = L.marker(
+                [44.233398, -76.4908178],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_d4027278a8944d41926956fa994f7b3c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7089c56b61514503971209ad5c8f5e91.setIcon(icon_d4027278a8944d41926956fa994f7b3c);
+        
+    
+        var popup_8812e000dd4a47e28570fdf12baf03d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4b30037f8a1427db6f9a53717edd9cd = $(`<div id="html_b4b30037f8a1427db6f9a53717edd9cd" style="width: 100.0%; height: 100.0%;">The Hair Studio on Barrie</div>`)[0];
+            popup_8812e000dd4a47e28570fdf12baf03d6.setContent(html_b4b30037f8a1427db6f9a53717edd9cd);
+        
+
+        marker_7089c56b61514503971209ad5c8f5e91.bindPopup(popup_8812e000dd4a47e28570fdf12baf03d6)
+        ;
+
+        
+    
+    
+            var marker_093826758aa0462787b603f201f7608d = L.marker(
+                [44.2347572, -76.4904131],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_05369c43d5ed40209854c3b8b6169a6b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_093826758aa0462787b603f201f7608d.setIcon(icon_05369c43d5ed40209854c3b8b6169a6b);
+        
+    
+        var popup_2e7a4b4840804c49a181c1a40f9d65dc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2626f3df410e46eb98add43d275de41d = $(`<div id="html_2626f3df410e46eb98add43d275de41d" style="width: 100.0%; height: 100.0%;">Sapphire Room Hair Studio</div>`)[0];
+            popup_2e7a4b4840804c49a181c1a40f9d65dc.setContent(html_2626f3df410e46eb98add43d275de41d);
+        
+
+        marker_093826758aa0462787b603f201f7608d.bindPopup(popup_2e7a4b4840804c49a181c1a40f9d65dc)
+        ;
+
+        
+    
+    
+            var marker_7e52059151a748348a1ced447f404368 = L.marker(
+                [44.2414847, -76.6094954],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_0f7fcaf866a54d3784ee1cb8191492bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7e52059151a748348a1ced447f404368.setIcon(icon_0f7fcaf866a54d3784ee1cb8191492bc);
+        
+    
+        var popup_8095a67c0101483dbf824ab69c98d09f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed6bdc371f424d1c8ace19b44a67e392 = $(`<div id="html_ed6bdc371f424d1c8ace19b44a67e392" style="width: 100.0%; height: 100.0%;">Hair Trends Studio</div>`)[0];
+            popup_8095a67c0101483dbf824ab69c98d09f.setContent(html_ed6bdc371f424d1c8ace19b44a67e392);
+        
+
+        marker_7e52059151a748348a1ced447f404368.bindPopup(popup_8095a67c0101483dbf824ab69c98d09f)
+        ;
+
+        
+    
+    
+            var marker_77cad9d0392f4bf696ba6f27e7225d01 = L.marker(
+                [44.2371895, -76.58686850000002],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_21168075b82843198a5ca4ce6ac401d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_77cad9d0392f4bf696ba6f27e7225d01.setIcon(icon_21168075b82843198a5ca4ce6ac401d3);
+        
+    
+        var popup_fadebcf248754baf8ccfe79b6db66a04 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba6365ab9cc84a53840e0719817ac53b = $(`<div id="html_ba6365ab9cc84a53840e0719817ac53b" style="width: 100.0%; height: 100.0%;">John & Josie Family Hair Salon</div>`)[0];
+            popup_fadebcf248754baf8ccfe79b6db66a04.setContent(html_ba6365ab9cc84a53840e0719817ac53b);
+        
+
+        marker_77cad9d0392f4bf696ba6f27e7225d01.bindPopup(popup_fadebcf248754baf8ccfe79b6db66a04)
+        ;
+
+        
+    
+    
+            var marker_2df660a65b284d52a4620ee7a6cabc4f = L.marker(
+                [44.265073, -76.4847707],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_a0b53d910c6344a59ce12eca6a1aaf4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2df660a65b284d52a4620ee7a6cabc4f.setIcon(icon_a0b53d910c6344a59ce12eca6a1aaf4f);
+        
+    
+        var popup_580f27c81f704552b090d95b1cc62a43 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39f8c2e8ba3b40c988c3b10fb7ba607a = $(`<div id="html_39f8c2e8ba3b40c988c3b10fb7ba607a" style="width: 100.0%; height: 100.0%;">Ozzie's Hair Design Salon</div>`)[0];
+            popup_580f27c81f704552b090d95b1cc62a43.setContent(html_39f8c2e8ba3b40c988c3b10fb7ba607a);
+        
+
+        marker_2df660a65b284d52a4620ee7a6cabc4f.bindPopup(popup_580f27c81f704552b090d95b1cc62a43)
+        ;
+
+        
+    
+    
+            var marker_1abd5ca94be94d1883d0f558d2d3e108 = L.marker(
+                [44.2322582, -76.484245],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_d13826a8fd114449b59e75045ab0e337 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1abd5ca94be94d1883d0f558d2d3e108.setIcon(icon_d13826a8fd114449b59e75045ab0e337);
+        
+    
+        var popup_a52b62f1af1f4faf8bd81097470afee6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fccfaa2ae47e4462b99a79b4873482e6 = $(`<div id="html_fccfaa2ae47e4462b99a79b4873482e6" style="width: 100.0%; height: 100.0%;">Lulu’s Colour, Hair & Esthetics Salon</div>`)[0];
+            popup_a52b62f1af1f4faf8bd81097470afee6.setContent(html_fccfaa2ae47e4462b99a79b4873482e6);
+        
+
+        marker_1abd5ca94be94d1883d0f558d2d3e108.bindPopup(popup_a52b62f1af1f4faf8bd81097470afee6)
+        ;
+
+        
+    
+    
+            var marker_7d2ed282591c43da805f036f54fc264a = L.marker(
+                [44.25483679999999, -76.54674720000001],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_49ca68193fb34a8caaeaaff5108b1815 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7d2ed282591c43da805f036f54fc264a.setIcon(icon_49ca68193fb34a8caaeaaff5108b1815);
+        
+    
+        var popup_229e48532d56403baae4edf374ce778a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b0f688bffb84315a59f4e73abb54e5e = $(`<div id="html_5b0f688bffb84315a59f4e73abb54e5e" style="width: 100.0%; height: 100.0%;">Gypsies Hair Design</div>`)[0];
+            popup_229e48532d56403baae4edf374ce778a.setContent(html_5b0f688bffb84315a59f4e73abb54e5e);
+        
+
+        marker_7d2ed282591c43da805f036f54fc264a.bindPopup(popup_229e48532d56403baae4edf374ce778a)
+        ;
+
+        
+    
+    
+            var marker_6318f512ff114f06b5a2238c8e5e5211 = L.marker(
+                [44.25635949999999, -76.5700816],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_b4474a85f72344fe8c8c2224700d3ab2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6318f512ff114f06b5a2238c8e5e5211.setIcon(icon_b4474a85f72344fe8c8c2224700d3ab2);
+        
+    
+        var popup_0b32fd880efc455197a393a7b6f0a8d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7bbd14d32761489ab7394544219ef202 = $(`<div id="html_7bbd14d32761489ab7394544219ef202" style="width: 100.0%; height: 100.0%;">Brushez Hair Studio</div>`)[0];
+            popup_0b32fd880efc455197a393a7b6f0a8d0.setContent(html_7bbd14d32761489ab7394544219ef202);
+        
+
+        marker_6318f512ff114f06b5a2238c8e5e5211.bindPopup(popup_0b32fd880efc455197a393a7b6f0a8d0)
+        ;
+
+        
+    
+    
+            var marker_fe0f9f97f82f4a97ac11595bf6034f05 = L.marker(
+                [44.231386, -76.52609],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_2ae337180e1944dd84f691b8ffe84389 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fe0f9f97f82f4a97ac11595bf6034f05.setIcon(icon_2ae337180e1944dd84f691b8ffe84389);
+        
+    
+        var popup_85bd1c1faaa74bd79ed1b75c675edc0b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f159f52e12a54935a8d4c922ec69ba07 = $(`<div id="html_f159f52e12a54935a8d4c922ec69ba07" style="width: 100.0%; height: 100.0%;">The Parlour Hair Studio</div>`)[0];
+            popup_85bd1c1faaa74bd79ed1b75c675edc0b.setContent(html_f159f52e12a54935a8d4c922ec69ba07);
+        
+
+        marker_fe0f9f97f82f4a97ac11595bf6034f05.bindPopup(popup_85bd1c1faaa74bd79ed1b75c675edc0b)
+        ;
+
+        
+    
+    
+            var marker_37bc9e484b03437ca67becf38398c892 = L.marker(
+                [44.2357543, -76.5664249],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_ff7420275e9b44ffbd67d41d5743cbcc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_37bc9e484b03437ca67becf38398c892.setIcon(icon_ff7420275e9b44ffbd67d41d5743cbcc);
+        
+    
+        var popup_f86d5b3310f448119071ae45f9a6c0a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6277fd4c5cf840e89b7989e140c476ca = $(`<div id="html_6277fd4c5cf840e89b7989e140c476ca" style="width: 100.0%; height: 100.0%;">First Choice Haircutters</div>`)[0];
+            popup_f86d5b3310f448119071ae45f9a6c0a0.setContent(html_6277fd4c5cf840e89b7989e140c476ca);
+        
+
+        marker_37bc9e484b03437ca67becf38398c892.bindPopup(popup_f86d5b3310f448119071ae45f9a6c0a0)
+        ;
+
+        
+    
+    
+            var marker_a1cdb4a9db5a4520bfdf5a99604ba343 = L.marker(
+                [44.2334852, -76.48443940000001],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_6a0dccf86e4e4ac187872a8a4c723d84 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a1cdb4a9db5a4520bfdf5a99604ba343.setIcon(icon_6a0dccf86e4e4ac187872a8a4c723d84);
+        
+    
+        var popup_0eeb60187ee846989135855e31d7eec4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7aee05fd895b4574a3cfcf1f510ea01b = $(`<div id="html_7aee05fd895b4574a3cfcf1f510ea01b" style="width: 100.0%; height: 100.0%;">Echo</div>`)[0];
+            popup_0eeb60187ee846989135855e31d7eec4.setContent(html_7aee05fd895b4574a3cfcf1f510ea01b);
+        
+
+        marker_a1cdb4a9db5a4520bfdf5a99604ba343.bindPopup(popup_0eeb60187ee846989135855e31d7eec4)
+        ;
+
+        
+    
+    
+            var marker_a3490f7e58704add8f48989eb4ce8ffa = L.marker(
+                [44.2560558, -76.5686003],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_7a48aa08bf2c45dc92e9d0b11492460b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a3490f7e58704add8f48989eb4ce8ffa.setIcon(icon_7a48aa08bf2c45dc92e9d0b11492460b);
+        
+    
+        var popup_94e0da20f1ce44b3afd8e3c2607527ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31f70c3f6dc7410c8db99770b41aeedc = $(`<div id="html_31f70c3f6dc7410c8db99770b41aeedc" style="width: 100.0%; height: 100.0%;">Hairafter</div>`)[0];
+            popup_94e0da20f1ce44b3afd8e3c2607527ea.setContent(html_31f70c3f6dc7410c8db99770b41aeedc);
+        
+
+        marker_a3490f7e58704add8f48989eb4ce8ffa.bindPopup(popup_94e0da20f1ce44b3afd8e3c2607527ea)
+        ;
+
+        
+    
+    
+            var marker_8314fb15509943e195a05fb74912acf6 = L.marker(
+                [44.2563363, -76.57217100000003],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_aa9f26ae5c274d2ebcdb01259db2479a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8314fb15509943e195a05fb74912acf6.setIcon(icon_aa9f26ae5c274d2ebcdb01259db2479a);
+        
+    
+        var popup_37fd98c9aa7c48f79d25e2b1a01053ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_162294abc0604827a7795c70eaa4f767 = $(`<div id="html_162294abc0604827a7795c70eaa4f767" style="width: 100.0%; height: 100.0%;">Quattro</div>`)[0];
+            popup_37fd98c9aa7c48f79d25e2b1a01053ad.setContent(html_162294abc0604827a7795c70eaa4f767);
+        
+
+        marker_8314fb15509943e195a05fb74912acf6.bindPopup(popup_37fd98c9aa7c48f79d25e2b1a01053ad)
+        ;
+
+        
+    
+    
+            var marker_dccfbb2ae5aa4186b0877af80b8c7256 = L.marker(
+                [44.2471656, -76.5192552],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_a082d0325e294c60a4a0b8c432be7506 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_dccfbb2ae5aa4186b0877af80b8c7256.setIcon(icon_a082d0325e294c60a4a0b8c432be7506);
+        
+    
+        var popup_e18d79d0b8c947cdb5a08e2ef6433757 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef3f020469174f4b991db8b42296a4da = $(`<div id="html_ef3f020469174f4b991db8b42296a4da" style="width: 100.0%; height: 100.0%;">Avenue Studio</div>`)[0];
+            popup_e18d79d0b8c947cdb5a08e2ef6433757.setContent(html_ef3f020469174f4b991db8b42296a4da);
+        
+
+        marker_dccfbb2ae5aa4186b0877af80b8c7256.bindPopup(popup_e18d79d0b8c947cdb5a08e2ef6433757)
+        ;
+
+        
+    
+    
+            var marker_12860292caeb422eb8f52ee28cfa9b0a = L.marker(
+                [44.2392901, -76.54353909999998],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_58353047643241bdb881997f2aaba263 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_12860292caeb422eb8f52ee28cfa9b0a.setIcon(icon_58353047643241bdb881997f2aaba263);
+        
+    
+        var popup_c6558dd7a49244b881ffd26b66ca1452 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f55e4c5833f42b3a5678e98bc473644 = $(`<div id="html_0f55e4c5833f42b3a5678e98bc473644" style="width: 100.0%; height: 100.0%;">Cut & Dried Family Hairstyling</div>`)[0];
+            popup_c6558dd7a49244b881ffd26b66ca1452.setContent(html_0f55e4c5833f42b3a5678e98bc473644);
+        
+
+        marker_12860292caeb422eb8f52ee28cfa9b0a.bindPopup(popup_c6558dd7a49244b881ffd26b66ca1452)
+        ;
+
+        
+    
+    
+            var marker_ffb91afd3401480cb640ddf9bec895a7 = L.marker(
+                [44.2359783, -76.498938],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_8c95dbabcc074234888b12afc47d1fc2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ffb91afd3401480cb640ddf9bec895a7.setIcon(icon_8c95dbabcc074234888b12afc47d1fc2);
+        
+    
+        var popup_7da754f824dc4d59ac12e6b68ab32c03 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03bd34ec0aa6465fb6d0d96398779e05 = $(`<div id="html_03bd34ec0aa6465fb6d0d96398779e05" style="width: 100.0%; height: 100.0%;">Lulus</div>`)[0];
+            popup_7da754f824dc4d59ac12e6b68ab32c03.setContent(html_03bd34ec0aa6465fb6d0d96398779e05);
+        
+
+        marker_ffb91afd3401480cb640ddf9bec895a7.bindPopup(popup_7da754f824dc4d59ac12e6b68ab32c03)
+        ;
+
+        
+    
+    
+            var marker_78aa7c5b14144ddc92ba5b7253372483 = L.marker(
+                [44.2399885, -76.5457119],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_ad2a17d3968a4c88bf2d8f090b290bd8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_78aa7c5b14144ddc92ba5b7253372483.setIcon(icon_ad2a17d3968a4c88bf2d8f090b290bd8);
+        
+    
+        var popup_334080f04f4a4fc181030c1b212a48a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bbfd3291ecc342d39cafc4a084e680f3 = $(`<div id="html_bbfd3291ecc342d39cafc4a084e680f3" style="width: 100.0%; height: 100.0%;">Marrello Advanced Academy of Hair Design</div>`)[0];
+            popup_334080f04f4a4fc181030c1b212a48a5.setContent(html_bbfd3291ecc342d39cafc4a084e680f3);
+        
+
+        marker_78aa7c5b14144ddc92ba5b7253372483.bindPopup(popup_334080f04f4a4fc181030c1b212a48a5)
+        ;
+
+        
+    
+    
+            var marker_c3d24dea859644a595a85e1ac4dc1e26 = L.marker(
+                [44.2465845, -76.57307960000001],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_49e0451633d44c67aeb99514008b64f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c3d24dea859644a595a85e1ac4dc1e26.setIcon(icon_49e0451633d44c67aeb99514008b64f9);
+        
+    
+        var popup_01d8eaa0e1ef4121b3f915ebd6a8d437 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3591ec113a9a4cbb82b790dff890ea91 = $(`<div id="html_3591ec113a9a4cbb82b790dff890ea91" style="width: 100.0%; height: 100.0%;">Reflections Hairstyling Boutique</div>`)[0];
+            popup_01d8eaa0e1ef4121b3f915ebd6a8d437.setContent(html_3591ec113a9a4cbb82b790dff890ea91);
+        
+
+        marker_c3d24dea859644a595a85e1ac4dc1e26.bindPopup(popup_01d8eaa0e1ef4121b3f915ebd6a8d437)
+        ;
+
+        
+    
+    
+            var marker_5e5f853d28f64322bf2986953c961d46 = L.marker(
+                [44.25676199999999, -76.48360199999998],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_8e025926c0204ffc86b3872495fb3919 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5e5f853d28f64322bf2986953c961d46.setIcon(icon_8e025926c0204ffc86b3872495fb3919);
+        
+    
+        var popup_10cb5f51cdd0471fb04a8bfdd81a8f5b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ff59cf51d364d16adcb6f92320414f5 = $(`<div id="html_7ff59cf51d364d16adcb6f92320414f5" style="width: 100.0%; height: 100.0%;">First Choice Haircutters</div>`)[0];
+            popup_10cb5f51cdd0471fb04a8bfdd81a8f5b.setContent(html_7ff59cf51d364d16adcb6f92320414f5);
+        
+
+        marker_5e5f853d28f64322bf2986953c961d46.bindPopup(popup_10cb5f51cdd0471fb04a8bfdd81a8f5b)
+        ;
+
+        
+    
+    
+            var marker_a18d992e6e4146d88eff27f143de2808 = L.marker(
+                [44.246991, -76.5690574],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_10ea8b781ec644368491b579ff08f5fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a18d992e6e4146d88eff27f143de2808.setIcon(icon_10ea8b781ec644368491b579ff08f5fd);
+        
+    
+        var popup_3eb0a0620f9b454594c35f205bb2df37 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5d6319c5e7f9469f97443fa7ff918bbb = $(`<div id="html_5d6319c5e7f9469f97443fa7ff918bbb" style="width: 100.0%; height: 100.0%;">Escape Hair Studio</div>`)[0];
+            popup_3eb0a0620f9b454594c35f205bb2df37.setContent(html_5d6319c5e7f9469f97443fa7ff918bbb);
+        
+
+        marker_a18d992e6e4146d88eff27f143de2808.bindPopup(popup_3eb0a0620f9b454594c35f205bb2df37)
+        ;
+
+        
+    
+    
+            var marker_31fd12f3b775419fb5dad7676933894b = L.marker(
+                [44.242247, -76.49577599999998],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_11f85a0a342b4a1987c32fc72d58fa73 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_31fd12f3b775419fb5dad7676933894b.setIcon(icon_11f85a0a342b4a1987c32fc72d58fa73);
+        
+    
+        var popup_c7486d49985e47b1afef5cfc453b6cc1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_303d4191cf064e2783b5d72c9f5f65e8 = $(`<div id="html_303d4191cf064e2783b5d72c9f5f65e8" style="width: 100.0%; height: 100.0%;">First Choice Haircutters</div>`)[0];
+            popup_c7486d49985e47b1afef5cfc453b6cc1.setContent(html_303d4191cf064e2783b5d72c9f5f65e8);
+        
+
+        marker_31fd12f3b775419fb5dad7676933894b.bindPopup(popup_c7486d49985e47b1afef5cfc453b6cc1)
+        ;
+
+        
+    
+    
+            var marker_a74bf5e3fb154c0ca0a3dc8e85165d27 = L.marker(
+                [44.240479, -76.525095],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_9340457768624e7b81e0a58e0b25538d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a74bf5e3fb154c0ca0a3dc8e85165d27.setIcon(icon_9340457768624e7b81e0a58e0b25538d);
+        
+    
+        var popup_cbd141f60b4640ada75ce0d0f89963f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2bb8beff13564e6298bbfa63eaf33fe9 = $(`<div id="html_2bb8beff13564e6298bbfa63eaf33fe9" style="width: 100.0%; height: 100.0%;">First Choice Haircutters</div>`)[0];
+            popup_cbd141f60b4640ada75ce0d0f89963f0.setContent(html_2bb8beff13564e6298bbfa63eaf33fe9);
+        
+
+        marker_a74bf5e3fb154c0ca0a3dc8e85165d27.bindPopup(popup_cbd141f60b4640ada75ce0d0f89963f0)
+        ;
+
+        
+    
+    
+            var marker_5b6bf8b2aba3425c8bae2784b0849cc1 = L.marker(
+                [44.265073, -76.4847707],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_54c6d411994847ccb95ccc01fa62c3e9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5b6bf8b2aba3425c8bae2784b0849cc1.setIcon(icon_54c6d411994847ccb95ccc01fa62c3e9);
+        
+    
+        var popup_6b7a41bef8de4fb0b89dc72a314a4369 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31f85cc5a605430bba0a670731f96495 = $(`<div id="html_31f85cc5a605430bba0a670731f96495" style="width: 100.0%; height: 100.0%;">Ozzie's Hair Design Salon</div>`)[0];
+            popup_6b7a41bef8de4fb0b89dc72a314a4369.setContent(html_31f85cc5a605430bba0a670731f96495);
+        
+
+        marker_5b6bf8b2aba3425c8bae2784b0849cc1.bindPopup(popup_6b7a41bef8de4fb0b89dc72a314a4369)
+        ;
+
+        
+    
+    
+            var marker_b4a95ba8c9a04fb9af8b0868c7c14440 = L.marker(
+                [44.2322582, -76.484245],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_dfad66c90421495a9166d260589d1013 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b4a95ba8c9a04fb9af8b0868c7c14440.setIcon(icon_dfad66c90421495a9166d260589d1013);
+        
+    
+        var popup_0f087b7427574e848cd3ca458e1c9d04 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17b6bac478ef419d8d0a32328133898f = $(`<div id="html_17b6bac478ef419d8d0a32328133898f" style="width: 100.0%; height: 100.0%;">Lulu’s Colour, Hair & Esthetics Salon</div>`)[0];
+            popup_0f087b7427574e848cd3ca458e1c9d04.setContent(html_17b6bac478ef419d8d0a32328133898f);
+        
+
+        marker_b4a95ba8c9a04fb9af8b0868c7c14440.bindPopup(popup_0f087b7427574e848cd3ca458e1c9d04)
+        ;
+
+        
+    
+    
+            var marker_46353cd1226d430196738835cf436dab = L.marker(
+                [44.25483679999999, -76.54674720000001],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_e1e371eea3c7432a9d2d6522ec0062f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_46353cd1226d430196738835cf436dab.setIcon(icon_e1e371eea3c7432a9d2d6522ec0062f4);
+        
+    
+        var popup_c30ff36a69774ab1a22f1147080d0e44 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9cfad99a9434c6ab4f8ddcd7e6deea4 = $(`<div id="html_d9cfad99a9434c6ab4f8ddcd7e6deea4" style="width: 100.0%; height: 100.0%;">Gypsies Hair Design</div>`)[0];
+            popup_c30ff36a69774ab1a22f1147080d0e44.setContent(html_d9cfad99a9434c6ab4f8ddcd7e6deea4);
+        
+
+        marker_46353cd1226d430196738835cf436dab.bindPopup(popup_c30ff36a69774ab1a22f1147080d0e44)
+        ;
+
+        
+    
+    
+            var marker_45d33c213a794889aab9dca38e754861 = L.marker(
+                [44.25635949999999, -76.5700816],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_fb4a8b767cac4ded812263957a6498ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_45d33c213a794889aab9dca38e754861.setIcon(icon_fb4a8b767cac4ded812263957a6498ca);
+        
+    
+        var popup_c5f355bc5f9d4e46b49b93609c4db10e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_63fe2faa66f34de7977abcb1644e8a22 = $(`<div id="html_63fe2faa66f34de7977abcb1644e8a22" style="width: 100.0%; height: 100.0%;">Brushez Hair Studio</div>`)[0];
+            popup_c5f355bc5f9d4e46b49b93609c4db10e.setContent(html_63fe2faa66f34de7977abcb1644e8a22);
+        
+
+        marker_45d33c213a794889aab9dca38e754861.bindPopup(popup_c5f355bc5f9d4e46b49b93609c4db10e)
+        ;
+
+        
+    
+    
+            var marker_bc42cdeb32104dc082c93d15ca402c82 = L.marker(
+                [44.231386, -76.52609],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_746c7d5b93b94678a85825a5a714c76b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bc42cdeb32104dc082c93d15ca402c82.setIcon(icon_746c7d5b93b94678a85825a5a714c76b);
+        
+    
+        var popup_cb3a70ba8fad498990c2ab2425581093 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4a84dd086e1401aac326e37de0100c6 = $(`<div id="html_c4a84dd086e1401aac326e37de0100c6" style="width: 100.0%; height: 100.0%;">The Parlour Hair Studio</div>`)[0];
+            popup_cb3a70ba8fad498990c2ab2425581093.setContent(html_c4a84dd086e1401aac326e37de0100c6);
+        
+
+        marker_bc42cdeb32104dc082c93d15ca402c82.bindPopup(popup_cb3a70ba8fad498990c2ab2425581093)
+        ;
+
+        
+    
+    
+            var marker_62189d67ffba40f98b956a28125500d9 = L.marker(
+                [44.2357543, -76.5664249],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_26288e72e28b4f46a932718d38b08ca5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_62189d67ffba40f98b956a28125500d9.setIcon(icon_26288e72e28b4f46a932718d38b08ca5);
+        
+    
+        var popup_dabdceadc8ed497da03aa9934bb61347 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ff361a7a1f6444ef8b85458a95ca132c = $(`<div id="html_ff361a7a1f6444ef8b85458a95ca132c" style="width: 100.0%; height: 100.0%;">First Choice Haircutters</div>`)[0];
+            popup_dabdceadc8ed497da03aa9934bb61347.setContent(html_ff361a7a1f6444ef8b85458a95ca132c);
+        
+
+        marker_62189d67ffba40f98b956a28125500d9.bindPopup(popup_dabdceadc8ed497da03aa9934bb61347)
+        ;
+
+        
+    
+    
+            var marker_f0382add26e04989b228a248a81aabc2 = L.marker(
+                [44.2560558, -76.5686003],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_1af38cf48d7a4c8083787d1f7314e2fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f0382add26e04989b228a248a81aabc2.setIcon(icon_1af38cf48d7a4c8083787d1f7314e2fb);
+        
+    
+        var popup_662159d1cfb84f328fb8e44abc301815 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec248b026e0c4fe9b904621c46b54f92 = $(`<div id="html_ec248b026e0c4fe9b904621c46b54f92" style="width: 100.0%; height: 100.0%;">Hairafter</div>`)[0];
+            popup_662159d1cfb84f328fb8e44abc301815.setContent(html_ec248b026e0c4fe9b904621c46b54f92);
+        
+
+        marker_f0382add26e04989b228a248a81aabc2.bindPopup(popup_662159d1cfb84f328fb8e44abc301815)
+        ;
+
+        
+    
+    
+            var marker_c32de657e53545e8b2365b44ccb322f6 = L.marker(
+                [44.2471656, -76.5192552],
+                {}
+            ).addTo(map_359390e25e7b49b78abbdd7410ebe0a0);
+        
+    
+            var icon_37b29526b97f4e6bb93b6c3c1f009eec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c32de657e53545e8b2365b44ccb322f6.setIcon(icon_37b29526b97f4e6bb93b6c3c1f009eec);
+        
+    
+        var popup_3b3a8a9cba68426d93155b0e8a5e3db7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_66171f391ea64c03a518261e83f50b27 = $(`<div id="html_66171f391ea64c03a518261e83f50b27" style="width: 100.0%; height: 100.0%;">Avenue Studio</div>`)[0];
+            popup_3b3a8a9cba68426d93155b0e8a5e3db7.setContent(html_66171f391ea64c03a518261e83f50b27);
+        
+
+        marker_c32de657e53545e8b2365b44ccb322f6.bindPopup(popup_3b3a8a9cba68426d93155b0e8a5e3db7)
+        ;
+
+        
+    
+</script>

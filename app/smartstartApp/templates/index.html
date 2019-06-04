@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Stylish Portfolio - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../static/vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../static/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="../static/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../static/css/stylish-portfolio.css" rel="stylesheet">
+  </head>
+  <body id="page-top">
+
+
+
+  <!-- Header -->
+    <header class="masthead d-flex">
+      <div class="container text-center my-auto">
+        <h1 class="mb-1">SmartStart</h1>
+        <h3 class="mb-5">
+          <em>Your guide to choose a location for your new business</em>
+        </h3>
+      </div>
+      <div class="overlay"></div>
+    </header>
+    
+    
+
+
+
+     <!-- Try Section -->
+    <section class="bg-primary mb-0" id="try">
+      <div class="container">
+        <hr class="star-light mb-5">
+        <h5> PCF = Potential Customer Flow </h5>
+        <h5> PS = Proximity Score (with respect to businesses of the same type) </h5>
+        <hr class="star-light mb-5">
+              <div class="col-sm m-3 text-center">
+                    <form action="/output" method="POST" id="user_input">
+                      <div>
+                        <div style="float: left;width: 50%;">
+                            <h5> City </h5>
+                            <select name="city">
+                                <option value="Kingston">Kingston,ON</option>
+                            </select>
+                        </div>
+                        <div style="float: left;width: 50%;">
+                            <h5> Business </h5>
+                            <select name="business">
+                                <option value="grocery">Grocery</option>
+                                <option value="bakery">Bakery</option>
+                                <option value="fitness center">Fitness Center</option>
+                                <option value="dairy">Dairy Products</option>
+                                <option value="hair care">Hair Care</option>
+                                <option value="laundry">Laundry</option>
+                                <option value="Swimming pool">Swimming pool</option>
+                            </select>
+                        </div>
+                      </div>
+                      <div style="width: 100%;">
+                          <div class="slidecontainer">
+                              <span style="font-size:24px;position: relative;  bottom: 10px;">PCF</span>
+                              <input type="range" min="0" max="95" step="5" value="45-50" class="slider" id="myRange", name="slider">
+                              <span style="font-size:24px;position: relative;  bottom: 10px;">PS</span>
+                          </div>
+                          <p><span id="demo" style="font-size:24px;" ></span> %</p>
+                      </div>
+                    </form>
+              </div>
+             
+       <div class="row justify-content-center">
+             <button type="submit" class="btn btn-secondary btn-lg" form="user_input">Find best locations!</button>
+             <a class="btn btn-secondary btn-lg" href="{{map_filename}}">Show on map!</a>
+      </div>
+      <hr class="star-light mb-5">
+      <div>
+          <table style="width:100%">
+              <tr>
+                  <th>Longitude</th>
+                  <th>Latitude</th>
+                  <th>PCF</th>
+                  <th>PS</th>
+              </tr>
+              {% for point in points %}
+              <tr>
+                  <td>{{point.lon}}</td>
+                  <td>{{point.lat}}</td>
+                  <td>{{point.PCF_norm}}</td>
+                  <td>{{point.PS_norm}}</td>
+              </tr>
+              {% endfor %}
+           </table>  
+       </div> 
+      
+
+       
+      </div>
+     
+      
+    </section>
+    
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUzF1cDzyZcFKt52x3K2R3aNNnH9FzBZg&callback=myMap"></script>
+
+    <script>
+        var slider = document.getElementById("myRange");
+        var output = document.getElementById("demo");
+        output.innerHTML = slider.value;
+        
+        slider.oninput = function() {
+          value = parseInt(this.value) + 5; 
+          output.innerHTML = this.value + '-' + value;
+        }
+    </script>
+    
+
+        <!-- Bootstrap core JavaScript -->
+    <script src="../static/vendor/jquery/jquery.min.js"></script>
+    <script src="../static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="../static/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="../static/js/stylish-portfolio.min.js"></script>
+  </body>
+
+
+</html>

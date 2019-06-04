@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a4fdeeadd30f48a4a0a3179880a02134 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_a4fdeeadd30f48a4a0a3179880a02134" ></div>
+        
+</body>
+<script>    
+    
+            var map_a4fdeeadd30f48a4a0a3179880a02134 = L.map(
+                "map_a4fdeeadd30f48a4a0a3179880a02134",
+                {
+                    center: [44.24, -76.58],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a17ac22fd0aa41cd8fd5f39b93212495 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a4fdeeadd30f48a4a0a3179880a02134);
+        
+    
+            var marker_2ca1c1df9dbd4ef79d2a02016d614357 = L.marker(
+                [44.230018039331036, -76.47997495645332],
+                {}
+            ).addTo(map_a4fdeeadd30f48a4a0a3179880a02134);
+        
+    
+            var icon_b41d4cbdf8d24534a404bdad1113011a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2ca1c1df9dbd4ef79d2a02016d614357.setIcon(icon_b41d4cbdf8d24534a404bdad1113011a);
+        
+    
+        var popup_215f0ce579d3434e8b41d2701b8e631f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_13870549a2804099ba234b09592d6e70 = $(`<div id="html_13870549a2804099ba234b09592d6e70" style="width: 100.0%; height: 100.0%;">PCF = 9.97, PS =4.43</div>`)[0];
+            popup_215f0ce579d3434e8b41d2701b8e631f.setContent(html_13870549a2804099ba234b09592d6e70);
+        
+
+        marker_2ca1c1df9dbd4ef79d2a02016d614357.bindPopup(popup_215f0ce579d3434e8b41d2701b8e631f)
+        ;
+
+        
+    
+    
+            var marker_9b12e67da14143b592c465f56b0d8f11 = L.marker(
+                [44.22987265999526, -76.47997495645332],
+                {}
+            ).addTo(map_a4fdeeadd30f48a4a0a3179880a02134);
+        
+    
+            var icon_dd919cb682c248c29170e98b18d9c281 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9b12e67da14143b592c465f56b0d8f11.setIcon(icon_dd919cb682c248c29170e98b18d9c281);
+        
+    
+        var popup_3be8d17da698469ca6ce1fcb2b8a0530 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39023b91e66e43edb242c526317cb3ad = $(`<div id="html_39023b91e66e43edb242c526317cb3ad" style="width: 100.0%; height: 100.0%;">PCF = 9.97, PS =4.44</div>`)[0];
+            popup_3be8d17da698469ca6ce1fcb2b8a0530.setContent(html_39023b91e66e43edb242c526317cb3ad);
+        
+
+        marker_9b12e67da14143b592c465f56b0d8f11.bindPopup(popup_3be8d17da698469ca6ce1fcb2b8a0530)
+        ;
+
+        
+    
+    
+            var marker_397eec6db07b474893622fea0ad78ce4 = L.marker(
+                [44.22987265999526, -76.47997495645332],
+                {}
+            ).addTo(map_a4fdeeadd30f48a4a0a3179880a02134);
+        
+    
+            var icon_628b76c6fad64869a4eb2b887505fd2b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_397eec6db07b474893622fea0ad78ce4.setIcon(icon_628b76c6fad64869a4eb2b887505fd2b);
+        
+    
+        var popup_56eec594a8a14a5f91ce20061211fab8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eaab4662f9ea4e61870d69b7aa0beb26 = $(`<div id="html_eaab4662f9ea4e61870d69b7aa0beb26" style="width: 100.0%; height: 100.0%;">PCF = 9.97, PS =4.44</div>`)[0];
+            popup_56eec594a8a14a5f91ce20061211fab8.setContent(html_eaab4662f9ea4e61870d69b7aa0beb26);
+        
+
+        marker_397eec6db07b474893622fea0ad78ce4.bindPopup(popup_56eec594a8a14a5f91ce20061211fab8)
+        ;
+
+        
+    
+    
+            var marker_aeaa4c0108bc487e8e34e1cf5e85ad87 = L.marker(
+                [44.23019995916904, -76.47777785640841],
+                {}
+            ).addTo(map_a4fdeeadd30f48a4a0a3179880a02134);
+        
+    
+            var icon_fce6fdb59d1e44abb605b06202a17521 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_aeaa4c0108bc487e8e34e1cf5e85ad87.setIcon(icon_fce6fdb59d1e44abb605b06202a17521);
+        
+    
+        var popup_ccfda7d2a2b8493ea46c955386fbedfc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f3bffa7f6054431bebccce5a60d2951 = $(`<div id="html_7f3bffa7f6054431bebccce5a60d2951" style="width: 100.0%; height: 100.0%;">PCF = 9.97, PS =4.59</div>`)[0];
+            popup_ccfda7d2a2b8493ea46c955386fbedfc.setContent(html_7f3bffa7f6054431bebccce5a60d2951);
+        
+
+        marker_aeaa4c0108bc487e8e34e1cf5e85ad87.bindPopup(popup_ccfda7d2a2b8493ea46c955386fbedfc)
+        ;
+
+        
+    
+    
+            var marker_80734d036f1c4409bfacf61b89d82bfd = L.marker(
+                [44.23019995916904, -76.47777785640841],
+                {}
+            ).addTo(map_a4fdeeadd30f48a4a0a3179880a02134);
+        
+    
+            var icon_fcfb5391745a49ceadfc54e324e5cc7d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_80734d036f1c4409bfacf61b89d82bfd.setIcon(icon_fcfb5391745a49ceadfc54e324e5cc7d);
+        
+    
+        var popup_24ffc511fa5f4ec29aec5a733dd1a205 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c89fbb70696484887a44f3a4a196779 = $(`<div id="html_8c89fbb70696484887a44f3a4a196779" style="width: 100.0%; height: 100.0%;">PCF = 9.97, PS =4.59</div>`)[0];
+            popup_24ffc511fa5f4ec29aec5a733dd1a205.setContent(html_8c89fbb70696484887a44f3a4a196779);
+        
+
+        marker_80734d036f1c4409bfacf61b89d82bfd.bindPopup(popup_24ffc511fa5f4ec29aec5a733dd1a205)
+        ;
+
+        
+    
+    
+            var marker_53bc2c2325134bb285de18bcfbf60268 = L.marker(
+                [44.2334255, -76.48968029999997],
+                {}
+            ).addTo(map_a4fdeeadd30f48a4a0a3179880a02134);
+        
+    
+            var icon_f984c0b90d31435884758eff77ba9b26 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_53bc2c2325134bb285de18bcfbf60268.setIcon(icon_f984c0b90d31435884758eff77ba9b26);
+        
+    
+        var popup_cb341bfe3cc745dc9c5d2e8f9e4aacff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a1078a347ac470c8313f5643255c175 = $(`<div id="html_6a1078a347ac470c8313f5643255c175" style="width: 100.0%; height: 100.0%;">Econo Dry Cleaning & Laundry</div>`)[0];
+            popup_cb341bfe3cc745dc9c5d2e8f9e4aacff.setContent(html_6a1078a347ac470c8313f5643255c175);
+        
+
+        marker_53bc2c2325134bb285de18bcfbf60268.bindPopup(popup_cb341bfe3cc745dc9c5d2e8f9e4aacff)
+        ;
+
+        
+    
+    
+            var marker_a926036e686b4cd189b35a935027dc32 = L.marker(
+                [44.2404877, -76.5249825],
+                {}
+            ).addTo(map_a4fdeeadd30f48a4a0a3179880a02134);
+        
+    
+            var icon_a6a5663f70574970b11f8e651d7aa4f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a926036e686b4cd189b35a935027dc32.setIcon(icon_a6a5663f70574970b11f8e651d7aa4f4);
+        
+    
+        var popup_29c9ed3775414c9485603e7bbc0167f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dfae477b2c66420aa63dbe68fc7e1707 = $(`<div id="html_dfae477b2c66420aa63dbe68fc7e1707" style="width: 100.0%; height: 100.0%;">Surf's Up! Laundry And Dry Cleaning</div>`)[0];
+            popup_29c9ed3775414c9485603e7bbc0167f8.setContent(html_dfae477b2c66420aa63dbe68fc7e1707);
+        
+
+        marker_a926036e686b4cd189b35a935027dc32.bindPopup(popup_29c9ed3775414c9485603e7bbc0167f8)
+        ;
+
+        
+    
+    
+            var marker_f5508114a7264f5f92800a1bd26497d7 = L.marker(
+                [44.2570695, -76.55638739999998],
+                {}
+            ).addTo(map_a4fdeeadd30f48a4a0a3179880a02134);
+        
+    
+            var icon_6803542dc41b43ce806946f513c5abbd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f5508114a7264f5f92800a1bd26497d7.setIcon(icon_6803542dc41b43ce806946f513c5abbd);
+        
+    
+        var popup_d23f76ceaf20435bbfeb87886b811ebb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06aa80ebf7b6436897744c09b01b43d5 = $(`<div id="html_06aa80ebf7b6436897744c09b01b43d5" style="width: 100.0%; height: 100.0%;">Kingston Coin Laundry & Dry Cleaning Centre</div>`)[0];
+            popup_d23f76ceaf20435bbfeb87886b811ebb.setContent(html_06aa80ebf7b6436897744c09b01b43d5);
+        
+
+        marker_f5508114a7264f5f92800a1bd26497d7.bindPopup(popup_d23f76ceaf20435bbfeb87886b811ebb)
+        ;
+
+        
+    
+    
+            var marker_00062ec4e5c845d1819e6e1026bc8f7f = L.marker(
+                [44.2650481, -76.4971285],
+                {}
+            ).addTo(map_a4fdeeadd30f48a4a0a3179880a02134);
+        
+    
+            var icon_abd0c7e6d06d4ab5a7c05eb8d1c1ce39 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_00062ec4e5c845d1819e6e1026bc8f7f.setIcon(icon_abd0c7e6d06d4ab5a7c05eb8d1c1ce39);
+        
+    
+        var popup_b1630e42505841a582df0f4b8dd9312d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_689bb0a427d24ff6bd73fe24dddec704 = $(`<div id="html_689bb0a427d24ff6bd73fe24dddec704" style="width: 100.0%; height: 100.0%;">Kingslake Coin Laundry & Dry Cleaning</div>`)[0];
+            popup_b1630e42505841a582df0f4b8dd9312d.setContent(html_689bb0a427d24ff6bd73fe24dddec704);
+        
+
+        marker_00062ec4e5c845d1819e6e1026bc8f7f.bindPopup(popup_b1630e42505841a582df0f4b8dd9312d)
+        ;
+
+        
+    
+    
+            var marker_87768464fac2496991206cb251c3defa = L.marker(
+                [44.2399655, -76.54552319999998],
+                {}
+            ).addTo(map_a4fdeeadd30f48a4a0a3179880a02134);
+        
+    
+            var icon_1600d7dce3464e55b5a8845f6ba013e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_87768464fac2496991206cb251c3defa.setIcon(icon_1600d7dce3464e55b5a8845f6ba013e8);
+        
+    
+        var popup_14db5a62a18a485bb58fcf18e396969a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3c1735f76cd740fc8388c7a7c2b33912 = $(`<div id="html_3c1735f76cd740fc8388c7a7c2b33912" style="width: 100.0%; height: 100.0%;">Frontenac Mall Coin Laundry</div>`)[0];
+            popup_14db5a62a18a485bb58fcf18e396969a.setContent(html_3c1735f76cd740fc8388c7a7c2b33912);
+        
+
+        marker_87768464fac2496991206cb251c3defa.bindPopup(popup_14db5a62a18a485bb58fcf18e396969a)
+        ;
+
+        
+    
+    
+            var marker_a12e4f1814034d4e847e12188bfda9da = L.marker(
+                [44.2414585, -76.4975783],
+                {}
+            ).addTo(map_a4fdeeadd30f48a4a0a3179880a02134);
+        
+    
+            var icon_87871dfe1ad04bdab35268a64fcb5346 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a12e4f1814034d4e847e12188bfda9da.setIcon(icon_87871dfe1ad04bdab35268a64fcb5346);
+        
+    
+        var popup_003d0c0a0aab4a9ab458b3e718d3c99b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27475994b97b410d8edb57c857621985 = $(`<div id="html_27475994b97b410d8edb57c857621985" style="width: 100.0%; height: 100.0%;">Concession Coin Laundry & Dry Cleaning</div>`)[0];
+            popup_003d0c0a0aab4a9ab458b3e718d3c99b.setContent(html_27475994b97b410d8edb57c857621985);
+        
+
+        marker_a12e4f1814034d4e847e12188bfda9da.bindPopup(popup_003d0c0a0aab4a9ab458b3e718d3c99b)
+        ;
+
+        
+    
+    
+            var marker_b841fd5f57bf4a1c813ddeeadcc15ec5 = L.marker(
+                [44.260105, -76.582188],
+                {}
+            ).addTo(map_a4fdeeadd30f48a4a0a3179880a02134);
+        
+    
+            var icon_0cca94efe9474b5e8dc8253a066b6eb5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b841fd5f57bf4a1c813ddeeadcc15ec5.setIcon(icon_0cca94efe9474b5e8dc8253a066b6eb5);
+        
+    
+        var popup_e7a03e60e81743d4bcddc9dff72589d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2befcbbeae534524a22ddeac5bc2a029 = $(`<div id="html_2befcbbeae534524a22ddeac5bc2a029" style="width: 100.0%; height: 100.0%;">Cataraqui Coin Laundry And Drycleaning Depot</div>`)[0];
+            popup_e7a03e60e81743d4bcddc9dff72589d7.setContent(html_2befcbbeae534524a22ddeac5bc2a029);
+        
+
+        marker_b841fd5f57bf4a1c813ddeeadcc15ec5.bindPopup(popup_e7a03e60e81743d4bcddc9dff72589d7)
+        ;
+
+        
+    
+    
+            var marker_8cb9c0291a3941168d5a02247d2906c7 = L.marker(
+                [44.2326611, -76.4823672],
+                {}
+            ).addTo(map_a4fdeeadd30f48a4a0a3179880a02134);
+        
+    
+            var icon_9560116e60d7482683ce402767071efb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8cb9c0291a3941168d5a02247d2906c7.setIcon(icon_9560116e60d7482683ce402767071efb);
+        
+    
+        var popup_31353fb2343b436b9f97a26aef4df34e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_336779595c534202a40d5268219c1618 = $(`<div id="html_336779595c534202a40d5268219c1618" style="width: 100.0%; height: 100.0%;">Hillary Dry Cleaning</div>`)[0];
+            popup_31353fb2343b436b9f97a26aef4df34e.setContent(html_336779595c534202a40d5268219c1618);
+        
+
+        marker_8cb9c0291a3941168d5a02247d2906c7.bindPopup(popup_31353fb2343b436b9f97a26aef4df34e)
+        ;
+
+        
+    
+    
+            var marker_51c544e386f84b55a4574450bf9b01c3 = L.marker(
+                [44.2419355, -76.60922],
+                {}
+            ).addTo(map_a4fdeeadd30f48a4a0a3179880a02134);
+        
+    
+            var icon_f2f277f9ec2a445f95e92b8f3a051f4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_51c544e386f84b55a4574450bf9b01c3.setIcon(icon_f2f277f9ec2a445f95e92b8f3a051f4f);
+        
+    
+        var popup_f026944273c646f2a3b420e81c0fe278 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_67cacd08a47749b5a3b3d94bf728caaa = $(`<div id="html_67cacd08a47749b5a3b3d94bf728caaa" style="width: 100.0%; height: 100.0%;">Rainbow Laundromat</div>`)[0];
+            popup_f026944273c646f2a3b420e81c0fe278.setContent(html_67cacd08a47749b5a3b3d94bf728caaa);
+        
+
+        marker_51c544e386f84b55a4574450bf9b01c3.bindPopup(popup_f026944273c646f2a3b420e81c0fe278)
+        ;
+
+        
+    
+    
+            var marker_909cf9399168432fb233e803d3cfd140 = L.marker(
+                [44.262101, -76.56819300000002],
+                {}
+            ).addTo(map_a4fdeeadd30f48a4a0a3179880a02134);
+        
+    
+            var icon_c6ac765e92c64eaf820b85cf98d303ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_909cf9399168432fb233e803d3cfd140.setIcon(icon_c6ac765e92c64eaf820b85cf98d303ff);
+        
+    
+        var popup_ed78f51b633c4b68996edf11d29d08aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0c6f6b53182420ebb6f798326bed2e9 = $(`<div id="html_e0c6f6b53182420ebb6f798326bed2e9" style="width: 100.0%; height: 100.0%;">King Kleen</div>`)[0];
+            popup_ed78f51b633c4b68996edf11d29d08aa.setContent(html_e0c6f6b53182420ebb6f798326bed2e9);
+        
+
+        marker_909cf9399168432fb233e803d3cfd140.bindPopup(popup_ed78f51b633c4b68996edf11d29d08aa)
+        ;
+
+        
+    
+    
+            var marker_42ff67ae01bb40fdb2286b9b5384431d = L.marker(
+                [44.22873010000001, -76.48654010000001],
+                {}
+            ).addTo(map_a4fdeeadd30f48a4a0a3179880a02134);
+        
+    
+            var icon_d14b7e9fc2334b5bba482a9ec5f4f7cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_42ff67ae01bb40fdb2286b9b5384431d.setIcon(icon_d14b7e9fc2334b5bba482a9ec5f4f7cf);
+        
+    
+        var popup_d4225f7cce6b43689082e2d2bc602d22 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ff2317ea127b48dc9c9f33aacb78a0b5 = $(`<div id="html_ff2317ea127b48dc9c9f33aacb78a0b5" style="width: 100.0%; height: 100.0%;">Coin Laundry</div>`)[0];
+            popup_d4225f7cce6b43689082e2d2bc602d22.setContent(html_ff2317ea127b48dc9c9f33aacb78a0b5);
+        
+
+        marker_42ff67ae01bb40fdb2286b9b5384431d.bindPopup(popup_d4225f7cce6b43689082e2d2bc602d22)
+        ;
+
+        
+    
+</script>

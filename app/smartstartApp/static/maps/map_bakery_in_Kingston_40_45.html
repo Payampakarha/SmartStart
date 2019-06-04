@@ -1,0 +1,1638 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_14db3463faf94ba4bea6b7dae23f2c08 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_14db3463faf94ba4bea6b7dae23f2c08" ></div>
+        
+</body>
+<script>    
+    
+            var map_14db3463faf94ba4bea6b7dae23f2c08 = L.map(
+                "map_14db3463faf94ba4bea6b7dae23f2c08",
+                {
+                    center: [44.24, -76.58],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_dcbed48b4f2e47068761486f6e8bfd73 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var marker_10201a1630614757bbc33accbe9288cd = L.marker(
+                [44.27059912187168, -76.45997143855006],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_38a7399ae1e340cbb5a7c9c192af840d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_10201a1630614757bbc33accbe9288cd.setIcon(icon_38a7399ae1e340cbb5a7c9c192af840d);
+        
+    
+        var popup_34f5978940c74d6782e3b9c004925672 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b8b19de42f2749038a85e75f6ff702c0 = $(`<div id="html_b8b19de42f2749038a85e75f6ff702c0" style="width: 100.0%; height: 100.0%;">PCF = 9.69, PS =6.58</div>`)[0];
+            popup_34f5978940c74d6782e3b9c004925672.setContent(html_b8b19de42f2749038a85e75f6ff702c0);
+        
+
+        marker_10201a1630614757bbc33accbe9288cd.bindPopup(popup_34f5978940c74d6782e3b9c004925672)
+        ;
+
+        
+    
+    
+            var marker_88e88781cd42411c96a9e285fb638878 = L.marker(
+                [44.25420573895927, -76.61072500963925],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_372cbe1ceb7e466b89e721df8ffec208 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_88e88781cd42411c96a9e285fb638878.setIcon(icon_372cbe1ceb7e466b89e721df8ffec208);
+        
+    
+        var popup_48e3235cba4f447ba6efa70f4fcd5f65 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b253ae2481447b58ca6c499d1c4d1cf = $(`<div id="html_9b253ae2481447b58ca6c499d1c4d1cf" style="width: 100.0%; height: 100.0%;">PCF = 9.84, PS =6.64</div>`)[0];
+            popup_48e3235cba4f447ba6efa70f4fcd5f65.setContent(html_9b253ae2481447b58ca6c499d1c4d1cf);
+        
+
+        marker_88e88781cd42411c96a9e285fb638878.bindPopup(popup_48e3235cba4f447ba6efa70f4fcd5f65)
+        ;
+
+        
+    
+    
+            var marker_6b6217828ccb4938a66fecb0b7945ecf = L.marker(
+                [44.25707208385723, -76.45233640727794],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_c1a7c83adccb464099b2f73ebf0cc463 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6b6217828ccb4938a66fecb0b7945ecf.setIcon(icon_c1a7c83adccb464099b2f73ebf0cc463);
+        
+    
+        var popup_11a5f8b8e8da4f3cb3a123b3eafa9c6f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d23279749d1a484a8cfbe3c9da74930d = $(`<div id="html_d23279749d1a484a8cfbe3c9da74930d" style="width: 100.0%; height: 100.0%;">PCF = 9.66, PS =6.8</div>`)[0];
+            popup_11a5f8b8e8da4f3cb3a123b3eafa9c6f.setContent(html_d23279749d1a484a8cfbe3c9da74930d);
+        
+
+        marker_6b6217828ccb4938a66fecb0b7945ecf.bindPopup(popup_11a5f8b8e8da4f3cb3a123b3eafa9c6f)
+        ;
+
+        
+    
+    
+            var marker_c2585a4e550142639ed95cef87c98399 = L.marker(
+                [44.25783668312848, -76.45233640727794],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_3f34d9c1f6ce4246b2aa730dfc06bf26 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c2585a4e550142639ed95cef87c98399.setIcon(icon_3f34d9c1f6ce4246b2aa730dfc06bf26);
+        
+    
+        var popup_810126ac52214fa6b1865ff2e3c44c69 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f07f1e818834aa9bfbe957aaeba753a = $(`<div id="html_7f07f1e818834aa9bfbe957aaeba753a" style="width: 100.0%; height: 100.0%;">PCF = 9.66, PS =6.81</div>`)[0];
+            popup_810126ac52214fa6b1865ff2e3c44c69.setContent(html_7f07f1e818834aa9bfbe957aaeba753a);
+        
+
+        marker_c2585a4e550142639ed95cef87c98399.bindPopup(popup_810126ac52214fa6b1865ff2e3c44c69)
+        ;
+
+        
+    
+    
+            var marker_5631097c986e4f63a11c7613357eacc4 = L.marker(
+                [44.25802593793446, -76.45233640727794],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_b6d373df24dd435ca10e0fdab089371d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5631097c986e4f63a11c7613357eacc4.setIcon(icon_b6d373df24dd435ca10e0fdab089371d);
+        
+    
+        var popup_f35ce8fe0d9d46c5a57604f533bbd4f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3c96f0fa88c343bca85924747a3924a7 = $(`<div id="html_3c96f0fa88c343bca85924747a3924a7" style="width: 100.0%; height: 100.0%;">PCF = 9.66, PS =6.81</div>`)[0];
+            popup_f35ce8fe0d9d46c5a57604f533bbd4f4.setContent(html_3c96f0fa88c343bca85924747a3924a7);
+        
+
+        marker_5631097c986e4f63a11c7613357eacc4.bindPopup(popup_f35ce8fe0d9d46c5a57604f533bbd4f4)
+        ;
+
+        
+    
+    
+            var marker_3321677a63c745949f39027ffbe927fb = L.marker(
+                [44.231113, -76.480497],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_1347a241dd7a474e81640bc596bf5a3e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3321677a63c745949f39027ffbe927fb.setIcon(icon_1347a241dd7a474e81640bc596bf5a3e);
+        
+    
+        var popup_2e24fdfe1c924028a32f6538bdd19f8b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a4fc980d7bb49e18e3da43fcddcd2bc = $(`<div id="html_4a4fc980d7bb49e18e3da43fcddcd2bc" style="width: 100.0%; height: 100.0%;">Pan Chancho Bakery & Café</div>`)[0];
+            popup_2e24fdfe1c924028a32f6538bdd19f8b.setContent(html_4a4fc980d7bb49e18e3da43fcddcd2bc);
+        
+
+        marker_3321677a63c745949f39027ffbe927fb.bindPopup(popup_2e24fdfe1c924028a32f6538bdd19f8b)
+        ;
+
+        
+    
+    
+            var marker_7bea17e952e4426ca09e845d4a6d8608 = L.marker(
+                [44.260026200000006, -76.5817495],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_68979094e1f248629e855ca0eeb5efa3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7bea17e952e4426ca09e845d4a6d8608.setIcon(icon_68979094e1f248629e855ca0eeb5efa3);
+        
+    
+        var popup_afaa61020e884d8581877484d3cf04a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec71c49dce094f71bba9581641d4ed52 = $(`<div id="html_ec71c49dce094f71bba9581641d4ed52" style="width: 100.0%; height: 100.0%;">Fardella's Classic Bakery</div>`)[0];
+            popup_afaa61020e884d8581877484d3cf04a7.setContent(html_ec71c49dce094f71bba9581641d4ed52);
+        
+
+        marker_7bea17e952e4426ca09e845d4a6d8608.bindPopup(popup_afaa61020e884d8581877484d3cf04a7)
+        ;
+
+        
+    
+    
+            var marker_12b97456224e4c9f9c267c024ec23733 = L.marker(
+                [44.24936539999999, -76.56610699999999],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_aad73b296d7344d6818f3f25700531c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_12b97456224e4c9f9c267c024ec23733.setIcon(icon_aad73b296d7344d6818f3f25700531c4);
+        
+    
+        var popup_b08491c03ef14be7800718607ab08887 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c01ddb62db534ea1b1a335ccb6a8f074 = $(`<div id="html_c01ddb62db534ea1b1a335ccb6a8f074" style="width: 100.0%; height: 100.0%;">COBS Bread Bakery</div>`)[0];
+            popup_b08491c03ef14be7800718607ab08887.setContent(html_c01ddb62db534ea1b1a335ccb6a8f074);
+        
+
+        marker_12b97456224e4c9f9c267c024ec23733.bindPopup(popup_b08491c03ef14be7800718607ab08887)
+        ;
+
+        
+    
+    
+            var marker_8dc214ad160845b58ae057354566df02 = L.marker(
+                [44.275802500000005, -76.5740689],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_d15db9d5729646439269db40260f00fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8dc214ad160845b58ae057354566df02.setIcon(icon_d15db9d5729646439269db40260f00fb);
+        
+    
+        var popup_c9c37f2d7e4c489787ad6f218f8f6805 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d45126aee4d64d98b79c7ae39130ba26 = $(`<div id="html_d45126aee4d64d98b79c7ae39130ba26" style="width: 100.0%; height: 100.0%;">The Silly Yak</div>`)[0];
+            popup_c9c37f2d7e4c489787ad6f218f8f6805.setContent(html_d45126aee4d64d98b79c7ae39130ba26);
+        
+
+        marker_8dc214ad160845b58ae057354566df02.bindPopup(popup_c9c37f2d7e4c489787ad6f218f8f6805)
+        ;
+
+        
+    
+    
+            var marker_f3376684336549eb94e4de3ac329979f = L.marker(
+                [44.231836, -76.48299399999998],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_9989bb153f40414097c66dd33b3606ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f3376684336549eb94e4de3ac329979f.setIcon(icon_9989bb153f40414097c66dd33b3606ea);
+        
+    
+        var popup_64f38316b8144230969eda670b939abe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3df1bf5f88fb49f3a90ca0140ff4e077 = $(`<div id="html_3df1bf5f88fb49f3a90ca0140ff4e077" style="width: 100.0%; height: 100.0%;">Card's Bakery And Goods</div>`)[0];
+            popup_64f38316b8144230969eda670b939abe.setContent(html_3df1bf5f88fb49f3a90ca0140ff4e077);
+        
+
+        marker_f3376684336549eb94e4de3ac329979f.bindPopup(popup_64f38316b8144230969eda670b939abe)
+        ;
+
+        
+    
+    
+            var marker_5603e3c9d9ed4f9185bc09e890f301dd = L.marker(
+                [44.23756969999999, -76.5589535],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_b81ed1bc6ea448b3882da57c97b16691 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5603e3c9d9ed4f9185bc09e890f301dd.setIcon(icon_b81ed1bc6ea448b3882da57c97b16691);
+        
+    
+        var popup_0155eba9e9b745d3bc19d989d6424dda = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7dbc03430dd45c785e1163bd5c3c706 = $(`<div id="html_e7dbc03430dd45c785e1163bd5c3c706" style="width: 100.0%; height: 100.0%;">Bread & Butter Bakery</div>`)[0];
+            popup_0155eba9e9b745d3bc19d989d6424dda.setContent(html_e7dbc03430dd45c785e1163bd5c3c706);
+        
+
+        marker_5603e3c9d9ed4f9185bc09e890f301dd.bindPopup(popup_0155eba9e9b745d3bc19d989d6424dda)
+        ;
+
+        
+    
+    
+            var marker_5c145ae19b5d4bffa729e3b7a4e4bb09 = L.marker(
+                [44.2317688, -76.48472249999998],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_e1aebd9a16024f8cb39af00410c0173a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5c145ae19b5d4bffa729e3b7a4e4bb09.setIcon(icon_e1aebd9a16024f8cb39af00410c0173a);
+        
+    
+        var popup_ac6b0d2cc6174be19a49b8b557486f16 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5b71b9e42fd46e9bd6271d795cb3321 = $(`<div id="html_e5b71b9e42fd46e9bd6271d795cb3321" style="width: 100.0%; height: 100.0%;">CRAVE Coffee House & Bakery</div>`)[0];
+            popup_ac6b0d2cc6174be19a49b8b557486f16.setContent(html_e5b71b9e42fd46e9bd6271d795cb3321);
+        
+
+        marker_5c145ae19b5d4bffa729e3b7a4e4bb09.bindPopup(popup_ac6b0d2cc6174be19a49b8b557486f16)
+        ;
+
+        
+    
+    
+            var marker_ab1add34023e465b92eea965de31c37d = L.marker(
+                [44.2530122, -76.5678801],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_da1138b5d4f24b4aa7d56d6fb2b945ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ab1add34023e465b92eea965de31c37d.setIcon(icon_da1138b5d4f24b4aa7d56d6fb2b945ef);
+        
+    
+        var popup_8e33125e716846d884ad489f5876e31c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f283760bedcc4405946539bc2de0685f = $(`<div id="html_f283760bedcc4405946539bc2de0685f" style="width: 100.0%; height: 100.0%;">Safari Cake Boutique Inc.</div>`)[0];
+            popup_8e33125e716846d884ad489f5876e31c.setContent(html_f283760bedcc4405946539bc2de0685f);
+        
+
+        marker_ab1add34023e465b92eea965de31c37d.bindPopup(popup_8e33125e716846d884ad489f5876e31c)
+        ;
+
+        
+    
+    
+            var marker_f792eb2933814af4a96815fb1875c22a = L.marker(
+                [44.2188903, -76.57095509999998],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_af382c2a3fb14a90bb5a3610e65c0911 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f792eb2933814af4a96815fb1875c22a.setIcon(icon_af382c2a3fb14a90bb5a3610e65c0911);
+        
+    
+        var popup_2364230fd2fe4fcabee23d02af2bd1da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed6d6f55cce44e2085a02cf5af64d5ea = $(`<div id="html_ed6d6f55cce44e2085a02cf5af64d5ea" style="width: 100.0%; height: 100.0%;">Sydenham Sweet Bakery</div>`)[0];
+            popup_2364230fd2fe4fcabee23d02af2bd1da.setContent(html_ed6d6f55cce44e2085a02cf5af64d5ea);
+        
+
+        marker_f792eb2933814af4a96815fb1875c22a.bindPopup(popup_2364230fd2fe4fcabee23d02af2bd1da)
+        ;
+
+        
+    
+    
+            var marker_6b489db5201e41618988a997dd910694 = L.marker(
+                [44.2652465, -76.49718929999999],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_9b9c9b6270a24a36845b439a904e8f6f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6b489db5201e41618988a997dd910694.setIcon(icon_9b9c9b6270a24a36845b439a904e8f6f);
+        
+    
+        var popup_20f2275be73c445b8c002338208d4c1f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92e642ffe9bb45bf8c7a752117082bdd = $(`<div id="html_92e642ffe9bb45bf8c7a752117082bdd" style="width: 100.0%; height: 100.0%;">Grama's house bakery and Cafe</div>`)[0];
+            popup_20f2275be73c445b8c002338208d4c1f.setContent(html_92e642ffe9bb45bf8c7a752117082bdd);
+        
+
+        marker_6b489db5201e41618988a997dd910694.bindPopup(popup_20f2275be73c445b8c002338208d4c1f)
+        ;
+
+        
+    
+    
+            var marker_27da05e0307b442292654472c869058b = L.marker(
+                [44.2653729, -76.5023963],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_a4c011b6b62e4fceb014ff4df34ef000 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_27da05e0307b442292654472c869058b.setIcon(icon_a4c011b6b62e4fceb014ff4df34ef000);
+        
+    
+        var popup_904d15a095c04a6d819d0ed73eab5a63 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ff73c3177eea4d7a936c01c8bbf18d9e = $(`<div id="html_ff73c3177eea4d7a936c01c8bbf18d9e" style="width: 100.0%; height: 100.0%;">Panera Bread</div>`)[0];
+            popup_904d15a095c04a6d819d0ed73eab5a63.setContent(html_ff73c3177eea4d7a936c01c8bbf18d9e);
+        
+
+        marker_27da05e0307b442292654472c869058b.bindPopup(popup_904d15a095c04a6d819d0ed73eab5a63)
+        ;
+
+        
+    
+    
+            var marker_4ae0c970c3634e8090979d90801e3f27 = L.marker(
+                [44.2487333, -76.49007929999998],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_7b5582fe9aac42a781c9b7b4b0b3e2a3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4ae0c970c3634e8090979d90801e3f27.setIcon(icon_7b5582fe9aac42a781c9b7b4b0b3e2a3);
+        
+    
+        var popup_098dea8a97d142cd940b6427ee7f7a00 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_19983b1852704cfc9e4a87a6f57ab864 = $(`<div id="html_19983b1852704cfc9e4a87a6f57ab864" style="width: 100.0%; height: 100.0%;">Weston Bakeries Limited Ontario Factory</div>`)[0];
+            popup_098dea8a97d142cd940b6427ee7f7a00.setContent(html_19983b1852704cfc9e4a87a6f57ab864);
+        
+
+        marker_4ae0c970c3634e8090979d90801e3f27.bindPopup(popup_098dea8a97d142cd940b6427ee7f7a00)
+        ;
+
+        
+    
+    
+            var marker_5b059f394e9343c9b6fafab2b2602177 = L.marker(
+                [44.2377674, -76.50301390000001],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_95397153d46d4274a374f50b89975a0a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5b059f394e9343c9b6fafab2b2602177.setIcon(icon_95397153d46d4274a374f50b89975a0a);
+        
+    
+        var popup_28329e7c6d414077845853a946ebc707 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c32ba49ea7b4ccebece2cc785ac8a66 = $(`<div id="html_5c32ba49ea7b4ccebece2cc785ac8a66" style="width: 100.0%; height: 100.0%;">Common Sense Market & Bakery</div>`)[0];
+            popup_28329e7c6d414077845853a946ebc707.setContent(html_5c32ba49ea7b4ccebece2cc785ac8a66);
+        
+
+        marker_5b059f394e9343c9b6fafab2b2602177.bindPopup(popup_28329e7c6d414077845853a946ebc707)
+        ;
+
+        
+    
+    
+            var marker_80c4720ec0834d5fbf916a20dcfb17d0 = L.marker(
+                [44.26001369999999, -76.50600820000001],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_ce7b98da33f8430b971ec3b097643589 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_80c4720ec0834d5fbf916a20dcfb17d0.setIcon(icon_ce7b98da33f8430b971ec3b097643589);
+        
+    
+        var popup_a4a7542ea61d46faa1fcabafce292cbd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eeb5dc9bebcd4e08aba24ab83708174e = $(`<div id="html_eeb5dc9bebcd4e08aba24ab83708174e" style="width: 100.0%; height: 100.0%;">Fardella's Grill and Bakery</div>`)[0];
+            popup_a4a7542ea61d46faa1fcabafce292cbd.setContent(html_eeb5dc9bebcd4e08aba24ab83708174e);
+        
+
+        marker_80c4720ec0834d5fbf916a20dcfb17d0.bindPopup(popup_a4a7542ea61d46faa1fcabafce292cbd)
+        ;
+
+        
+    
+    
+            var marker_f16c1c8eb96745ffaaae72541dadefd4 = L.marker(
+                [44.23473800000001, -76.52492],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_87880ae9c2f147be9024a790ca663dd2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f16c1c8eb96745ffaaae72541dadefd4.setIcon(icon_87880ae9c2f147be9024a790ca663dd2);
+        
+    
+        var popup_ebba451b970248c7aa8c5df5b2d411ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_795cb5ca8b8746d4a5450724842d9211 = $(`<div id="html_795cb5ca8b8746d4a5450724842d9211" style="width: 100.0%; height: 100.0%;">Warrior Cakes</div>`)[0];
+            popup_ebba451b970248c7aa8c5df5b2d411ff.setContent(html_795cb5ca8b8746d4a5450724842d9211);
+        
+
+        marker_f16c1c8eb96745ffaaae72541dadefd4.bindPopup(popup_ebba451b970248c7aa8c5df5b2d411ff)
+        ;
+
+        
+    
+    
+            var marker_8b45f9b1507b401bb5f5f7d752c48d3f = L.marker(
+                [44.2392032, -76.5436048],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_68dab47998e74480b9ad89a521218ba3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8b45f9b1507b401bb5f5f7d752c48d3f.setIcon(icon_68dab47998e74480b9ad89a521218ba3);
+        
+    
+        var popup_79720f72888f45eab2ec98d52c9061c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0cd7d2c269df490a9d466f4be475b8f6 = $(`<div id="html_0cd7d2c269df490a9d466f4be475b8f6" style="width: 100.0%; height: 100.0%;">Bread-Man & Catering</div>`)[0];
+            popup_79720f72888f45eab2ec98d52c9061c0.setContent(html_0cd7d2c269df490a9d466f4be475b8f6);
+        
+
+        marker_8b45f9b1507b401bb5f5f7d752c48d3f.bindPopup(popup_79720f72888f45eab2ec98d52c9061c0)
+        ;
+
+        
+    
+    
+            var marker_cdb11c4b8aa74a23aa97a72eba678430 = L.marker(
+                [44.2600946, -76.56068420000001],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_3789fce996b248e4a1e85e258eaadfc4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cdb11c4b8aa74a23aa97a72eba678430.setIcon(icon_3789fce996b248e4a1e85e258eaadfc4);
+        
+    
+        var popup_c01aacb093e74c2dbd41372179b57d94 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bbeb5ce672d74af39ea4ecc5f907e6c0 = $(`<div id="html_bbeb5ce672d74af39ea4ecc5f907e6c0" style="width: 100.0%; height: 100.0%;">Costco Bakery</div>`)[0];
+            popup_c01aacb093e74c2dbd41372179b57d94.setContent(html_bbeb5ce672d74af39ea4ecc5f907e6c0);
+        
+
+        marker_cdb11c4b8aa74a23aa97a72eba678430.bindPopup(popup_c01aacb093e74c2dbd41372179b57d94)
+        ;
+
+        
+    
+    
+            var marker_290a4556873c457f8509f7ed3a8e586d = L.marker(
+                [44.2777655, -76.5695377],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_c4e3d06ce4674bf7af95b74d1d01d4f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_290a4556873c457f8509f7ed3a8e586d.setIcon(icon_c4e3d06ce4674bf7af95b74d1d01d4f8);
+        
+    
+        var popup_6d13311329d64cda801f93352dd633cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_170f7b62a74547d3b7804b0ecbf96cd0 = $(`<div id="html_170f7b62a74547d3b7804b0ecbf96cd0" style="width: 100.0%; height: 100.0%;">Canada Bread</div>`)[0];
+            popup_6d13311329d64cda801f93352dd633cb.setContent(html_170f7b62a74547d3b7804b0ecbf96cd0);
+        
+
+        marker_290a4556873c457f8509f7ed3a8e586d.bindPopup(popup_6d13311329d64cda801f93352dd633cb)
+        ;
+
+        
+    
+    
+            var marker_fcf26d864cba46439dbd1e8c12bb18cf = L.marker(
+                [44.23849620000001, -76.5435145],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_a028d13c659a4a78a56d8e1f962e4a25 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fcf26d864cba46439dbd1e8c12bb18cf.setIcon(icon_a028d13c659a4a78a56d8e1f962e4a25);
+        
+    
+        var popup_3997ab879e634fb3915b15dffacec492 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_432fc06157d74685809e255d8a82598c = $(`<div id="html_432fc06157d74685809e255d8a82598c" style="width: 100.0%; height: 100.0%;">Frangos at Breadman Bakery</div>`)[0];
+            popup_3997ab879e634fb3915b15dffacec492.setContent(html_432fc06157d74685809e255d8a82598c);
+        
+
+        marker_fcf26d864cba46439dbd1e8c12bb18cf.bindPopup(popup_3997ab879e634fb3915b15dffacec492)
+        ;
+
+        
+    
+    
+            var marker_87a0c4399d414b9287d27686cead7278 = L.marker(
+                [44.2423231, -76.495364],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_d9cfcc8f4933417abd04a818b29f74b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_87a0c4399d414b9287d27686cead7278.setIcon(icon_d9cfcc8f4933417abd04a818b29f74b2);
+        
+    
+        var popup_82e63fb5d9dd46f3ac25a6bc978395ba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b244920ddd6c43d29d9c5e67392fe55f = $(`<div id="html_b244920ddd6c43d29d9c5e67392fe55f" style="width: 100.0%; height: 100.0%;">Coffee Way Donuts</div>`)[0];
+            popup_82e63fb5d9dd46f3ac25a6bc978395ba.setContent(html_b244920ddd6c43d29d9c5e67392fe55f);
+        
+
+        marker_87a0c4399d414b9287d27686cead7278.bindPopup(popup_82e63fb5d9dd46f3ac25a6bc978395ba)
+        ;
+
+        
+    
+    
+            var marker_5ede11161b6a403dac5fae0e758b8583 = L.marker(
+                [44.2318138, -76.48347940000001],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_554acd18b4494efd995e9f3f49828ce7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5ede11161b6a403dac5fae0e758b8583.setIcon(icon_554acd18b4494efd995e9f3f49828ce7);
+        
+    
+        var popup_0ea4be00fcee4f60b3188fada42dda6c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_509753d7e603463bb678ec2b22b021fd = $(`<div id="html_509753d7e603463bb678ec2b22b021fd" style="width: 100.0%; height: 100.0%;">Cakes by Krista</div>`)[0];
+            popup_0ea4be00fcee4f60b3188fada42dda6c.setContent(html_509753d7e603463bb678ec2b22b021fd);
+        
+
+        marker_5ede11161b6a403dac5fae0e758b8583.bindPopup(popup_0ea4be00fcee4f60b3188fada42dda6c)
+        ;
+
+        
+    
+    
+            var marker_85c31ac045cc4ad08dcb28f27d3db35c = L.marker(
+                [44.231758, -76.482919],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_ee6b90e6564746aeb5b7a7020a566c84 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_85c31ac045cc4ad08dcb28f27d3db35c.setIcon(icon_ee6b90e6564746aeb5b7a7020a566c84);
+        
+    
+        var popup_0b3ca6ffa9f34c90b74129ae36d50b3e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61b16440384e4e67b505f2314a3e78f1 = $(`<div id="html_61b16440384e4e67b505f2314a3e78f1" style="width: 100.0%; height: 100.0%;">Golden Rooster Delicatessen</div>`)[0];
+            popup_0b3ca6ffa9f34c90b74129ae36d50b3e.setContent(html_61b16440384e4e67b505f2314a3e78f1);
+        
+
+        marker_85c31ac045cc4ad08dcb28f27d3db35c.bindPopup(popup_0b3ca6ffa9f34c90b74129ae36d50b3e)
+        ;
+
+        
+    
+    
+            var marker_96bb2d08a1fb4c668f07ff48a70f27e3 = L.marker(
+                [44.2428429, -76.5185193],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_9bb146a7107d445ea81d3cbfbf0695b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_96bb2d08a1fb4c668f07ff48a70f27e3.setIcon(icon_9bb146a7107d445ea81d3cbfbf0695b6);
+        
+    
+        var popup_cdb703defad34e948c16f765a2a87168 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c5b2fb6d34d441ec8d8a70fae1808d80 = $(`<div id="html_c5b2fb6d34d441ec8d8a70fae1808d80" style="width: 100.0%; height: 100.0%;">Loblaws</div>`)[0];
+            popup_cdb703defad34e948c16f765a2a87168.setContent(html_c5b2fb6d34d441ec8d8a70fae1808d80);
+        
+
+        marker_96bb2d08a1fb4c668f07ff48a70f27e3.bindPopup(popup_cdb703defad34e948c16f765a2a87168)
+        ;
+
+        
+    
+    
+            var marker_69da9efb977e46509e60f37399d851fe = L.marker(
+                [44.23178729999999, -76.4830202],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_6b0696b42b89458a85ffd9af5adc37c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_69da9efb977e46509e60f37399d851fe.setIcon(icon_6b0696b42b89458a85ffd9af5adc37c5);
+        
+    
+        var popup_253b062a9b7748608aa25406345c2762 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2065b2395f946189e211342a8d0f044 = $(`<div id="html_e2065b2395f946189e211342a8d0f044" style="width: 100.0%; height: 100.0%;">Cakes by Krista</div>`)[0];
+            popup_253b062a9b7748608aa25406345c2762.setContent(html_e2065b2395f946189e211342a8d0f044);
+        
+
+        marker_69da9efb977e46509e60f37399d851fe.bindPopup(popup_253b062a9b7748608aa25406345c2762)
+        ;
+
+        
+    
+    
+            var marker_fa06e0e35eb241ffa98054858a1eaa1f = L.marker(
+                [44.2607838, -76.57253100000001],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_3ce8ededf3b54874bcaa2ab899389212 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fa06e0e35eb241ffa98054858a1eaa1f.setIcon(icon_3ce8ededf3b54874bcaa2ab899389212);
+        
+    
+        var popup_ac60495a47b24fe5a6ffedc5f782bfe9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3861165dfc67442ba321faeb0281bb7d = $(`<div id="html_3861165dfc67442ba321faeb0281bb7d" style="width: 100.0%; height: 100.0%;">Loblaws</div>`)[0];
+            popup_ac60495a47b24fe5a6ffedc5f782bfe9.setContent(html_3861165dfc67442ba321faeb0281bb7d);
+        
+
+        marker_fa06e0e35eb241ffa98054858a1eaa1f.bindPopup(popup_ac60495a47b24fe5a6ffedc5f782bfe9)
+        ;
+
+        
+    
+    
+            var marker_22a4cc9b917b497e9f1b91792641a74e = L.marker(
+                [44.2589416, -76.45580770000001],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_0e63940636d348c98952aeb289454570 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_22a4cc9b917b497e9f1b91792641a74e.setIcon(icon_0e63940636d348c98952aeb289454570);
+        
+    
+        var popup_fe21ce781eed43118ed08932253d98a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da3d02fbc76c40b6b616838d4e06ed39 = $(`<div id="html_da3d02fbc76c40b6b616838d4e06ed39" style="width: 100.0%; height: 100.0%;">Jame's Valu-mart</div>`)[0];
+            popup_fe21ce781eed43118ed08932253d98a5.setContent(html_da3d02fbc76c40b6b616838d4e06ed39);
+        
+
+        marker_22a4cc9b917b497e9f1b91792641a74e.bindPopup(popup_fe21ce781eed43118ed08932253d98a5)
+        ;
+
+        
+    
+    
+            var marker_4a7e8dae766844f4b37f2b7718b8a4e1 = L.marker(
+                [44.2428154, -76.51606819999998],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_72a81e2a86ac423f899df090c93e78fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4a7e8dae766844f4b37f2b7718b8a4e1.setIcon(icon_72a81e2a86ac423f899df090c93e78fe);
+        
+    
+        var popup_1897cf1fe1d241ecb86c1f6e0849d237 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_79b32055d1b64d9abf773fc17dd7858c = $(`<div id="html_79b32055d1b64d9abf773fc17dd7858c" style="width: 100.0%; height: 100.0%;">Baskin-Robbins Kingston</div>`)[0];
+            popup_1897cf1fe1d241ecb86c1f6e0849d237.setContent(html_79b32055d1b64d9abf773fc17dd7858c);
+        
+
+        marker_4a7e8dae766844f4b37f2b7718b8a4e1.bindPopup(popup_1897cf1fe1d241ecb86c1f6e0849d237)
+        ;
+
+        
+    
+    
+            var marker_d1733223e0c344ec812d847c4b910144 = L.marker(
+                [44.244538399999996, -76.5792436],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_4291d5aadd2d4bb5b2249f31a78b63f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d1733223e0c344ec812d847c4b910144.setIcon(icon_4291d5aadd2d4bb5b2249f31a78b63f6);
+        
+    
+        var popup_a41857a6e5504ba6927a1a5eb763d7b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8279a84e7e464b7aa363ff6f282bea7d = $(`<div id="html_8279a84e7e464b7aa363ff6f282bea7d" style="width: 100.0%; height: 100.0%;">Pearl's Sweets and Gift Baskets</div>`)[0];
+            popup_a41857a6e5504ba6927a1a5eb763d7b3.setContent(html_8279a84e7e464b7aa363ff6f282bea7d);
+        
+
+        marker_d1733223e0c344ec812d847c4b910144.bindPopup(popup_a41857a6e5504ba6927a1a5eb763d7b3)
+        ;
+
+        
+    
+    
+            var marker_3a9f8ad23ef34b9688928d1ecf631dee = L.marker(
+                [44.2375975, -76.59215520000001],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_876053ecd44f4aecacc8455f91f74665 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3a9f8ad23ef34b9688928d1ecf631dee.setIcon(icon_876053ecd44f4aecacc8455f91f74665);
+        
+    
+        var popup_52a1f5d8b75548caa18a2440ec40d1a9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55fa02b97aaa4c9690c6d5f3c81bd0d2 = $(`<div id="html_55fa02b97aaa4c9690c6d5f3c81bd0d2" style="width: 100.0%; height: 100.0%;">Gord & Kim's No Frills</div>`)[0];
+            popup_52a1f5d8b75548caa18a2440ec40d1a9.setContent(html_55fa02b97aaa4c9690c6d5f3c81bd0d2);
+        
+
+        marker_3a9f8ad23ef34b9688928d1ecf631dee.bindPopup(popup_52a1f5d8b75548caa18a2440ec40d1a9)
+        ;
+
+        
+    
+    
+            var marker_0389164344db42549a84a51898d7608d = L.marker(
+                [44.242878399999995, -76.5032161],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_dbca86a5d63f41de907a5fa881df00b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0389164344db42549a84a51898d7608d.setIcon(icon_dbca86a5d63f41de907a5fa881df00b1);
+        
+    
+        var popup_cebe636936c5480ca4067e416f066f90 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c7a305b57734b38a09ef247f8501bb3 = $(`<div id="html_6c7a305b57734b38a09ef247f8501bb3" style="width: 100.0%; height: 100.0%;">Black Cat Bakery</div>`)[0];
+            popup_cebe636936c5480ca4067e416f066f90.setContent(html_6c7a305b57734b38a09ef247f8501bb3);
+        
+
+        marker_0389164344db42549a84a51898d7608d.bindPopup(popup_cebe636936c5480ca4067e416f066f90)
+        ;
+
+        
+    
+    
+            var marker_f8af817523d94c17a0e8c5504c45b71b = L.marker(
+                [44.2375842, -76.5589918],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_7dd210c0353c4d8dab0ea1b269d7872e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f8af817523d94c17a0e8c5504c45b71b.setIcon(icon_7dd210c0353c4d8dab0ea1b269d7872e);
+        
+    
+        var popup_558b365be78343bebb0c0d9a2c1493a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_651001b2522b49c88e560528f3a67191 = $(`<div id="html_651001b2522b49c88e560528f3a67191" style="width: 100.0%; height: 100.0%;">Toast & Jam</div>`)[0];
+            popup_558b365be78343bebb0c0d9a2c1493a1.setContent(html_651001b2522b49c88e560528f3a67191);
+        
+
+        marker_f8af817523d94c17a0e8c5504c45b71b.bindPopup(popup_558b365be78343bebb0c0d9a2c1493a1)
+        ;
+
+        
+    
+    
+            var marker_4c9205ee009942ee90d7d2b0b8455101 = L.marker(
+                [44.23523, -76.5672262],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_59a3da3437694c5e9a308c0534ad3853 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4c9205ee009942ee90d7d2b0b8455101.setIcon(icon_59a3da3437694c5e9a308c0534ad3853);
+        
+    
+        var popup_562718b414c643b58261afa1f00b25ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_395ae3abc1054b0bb5fe1be54dc74039 = $(`<div id="html_395ae3abc1054b0bb5fe1be54dc74039" style="width: 100.0%; height: 100.0%;">Metro</div>`)[0];
+            popup_562718b414c643b58261afa1f00b25ca.setContent(html_395ae3abc1054b0bb5fe1be54dc74039);
+        
+
+        marker_4c9205ee009942ee90d7d2b0b8455101.bindPopup(popup_562718b414c643b58261afa1f00b25ca)
+        ;
+
+        
+    
+    
+            var marker_fc326abcbe9f4376b82a739c9731ce2d = L.marker(
+                [44.2515339, -76.5900125],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_fb5502290f7b43d0b5436c3326688b99 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fc326abcbe9f4376b82a739c9731ce2d.setIcon(icon_fb5502290f7b43d0b5436c3326688b99);
+        
+    
+        var popup_bab726966e1e40a194f991c42d082c37 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b612521e0d02489da2041ddc591b48c3 = $(`<div id="html_b612521e0d02489da2041ddc591b48c3" style="width: 100.0%; height: 100.0%;">Metro</div>`)[0];
+            popup_bab726966e1e40a194f991c42d082c37.setContent(html_b612521e0d02489da2041ddc591b48c3);
+        
+
+        marker_fc326abcbe9f4376b82a739c9731ce2d.bindPopup(popup_bab726966e1e40a194f991c42d082c37)
+        ;
+
+        
+    
+    
+            var marker_dfa8c10bf46d47fb9bc9da07477e18fb = L.marker(
+                [44.260177500000005, -76.5605635],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_dd6f7f554e3c41fca5a18b797f116e9e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_dfa8c10bf46d47fb9bc9da07477e18fb.setIcon(icon_dd6f7f554e3c41fca5a18b797f116e9e);
+        
+    
+        var popup_9a5a8698e1a24079b651ad2c2bced6e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e94164d5f8b4450cbdd5459ad336f63c = $(`<div id="html_e94164d5f8b4450cbdd5459ad336f63c" style="width: 100.0%; height: 100.0%;">Costco Wholesale</div>`)[0];
+            popup_9a5a8698e1a24079b651ad2c2bced6e5.setContent(html_e94164d5f8b4450cbdd5459ad336f63c);
+        
+
+        marker_dfa8c10bf46d47fb9bc9da07477e18fb.bindPopup(popup_9a5a8698e1a24079b651ad2c2bced6e5)
+        ;
+
+        
+    
+    
+            var marker_58837454cee14cc2823dfc12b57e94d5 = L.marker(
+                [44.2643616, -76.50031210000002],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_b47f669e398a4a2aa604b7ec90354e61 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_58837454cee14cc2823dfc12b57e94d5.setIcon(icon_b47f669e398a4a2aa604b7ec90354e61);
+        
+    
+        var popup_e7b7a2af119e4972bfff52e9b67d28d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fc0a794ced224ed99da006c4b47e481c = $(`<div id="html_fc0a794ced224ed99da006c4b47e481c" style="width: 100.0%; height: 100.0%;">Grant's No Frills</div>`)[0];
+            popup_e7b7a2af119e4972bfff52e9b67d28d7.setContent(html_fc0a794ced224ed99da006c4b47e481c);
+        
+
+        marker_58837454cee14cc2823dfc12b57e94d5.bindPopup(popup_e7b7a2af119e4972bfff52e9b67d28d7)
+        ;
+
+        
+    
+    
+            var marker_5a25d98a7b7445709fefb86a2663703e = L.marker(
+                [44.232418599999995, -76.49173979999998],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_a3c82a0aa50c4f01877f67fed24b77ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5a25d98a7b7445709fefb86a2663703e.setIcon(icon_a3c82a0aa50c4f01877f67fed24b77ed);
+        
+    
+        var popup_b9d62f0a16674982a85dda6583446b2f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2cb75ce39f3d415283c9221520ca0956 = $(`<div id="html_2cb75ce39f3d415283c9221520ca0956" style="width: 100.0%; height: 100.0%;">Metro</div>`)[0];
+            popup_b9d62f0a16674982a85dda6583446b2f.setContent(html_2cb75ce39f3d415283c9221520ca0956);
+        
+
+        marker_5a25d98a7b7445709fefb86a2663703e.bindPopup(popup_b9d62f0a16674982a85dda6583446b2f)
+        ;
+
+        
+    
+    
+            var marker_d52151f8f2254e7b98511f9a534c0f6f = L.marker(
+                [44.2369558, -76.57927600000001],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_1496f43a7e0d48a38329f8674a3a6a2c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d52151f8f2254e7b98511f9a534c0f6f.setIcon(icon_1496f43a7e0d48a38329f8674a3a6a2c);
+        
+    
+        var popup_54579499650140769bb5f9c49261835a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61a43c049f0a429c8fad1003d41924a1 = $(`<div id="html_61a43c049f0a429c8fad1003d41924a1" style="width: 100.0%; height: 100.0%;">Country Style</div>`)[0];
+            popup_54579499650140769bb5f9c49261835a.setContent(html_61a43c049f0a429c8fad1003d41924a1);
+        
+
+        marker_d52151f8f2254e7b98511f9a534c0f6f.bindPopup(popup_54579499650140769bb5f9c49261835a)
+        ;
+
+        
+    
+    
+            var marker_237bc9ba10ef4fb7b6e1ce0968986272 = L.marker(
+                [44.258298499999995, -76.5183309],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_ea63dae3f6404b8bbd5964006b71df6c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_237bc9ba10ef4fb7b6e1ce0968986272.setIcon(icon_ea63dae3f6404b8bbd5964006b71df6c);
+        
+    
+        var popup_fa7193496ba744979b5d473c714e8f0c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_63892170f1554c518420190db4cafbb8 = $(`<div id="html_63892170f1554c518420190db4cafbb8" style="width: 100.0%; height: 100.0%;">Country Style</div>`)[0];
+            popup_fa7193496ba744979b5d473c714e8f0c.setContent(html_63892170f1554c518420190db4cafbb8);
+        
+
+        marker_237bc9ba10ef4fb7b6e1ce0968986272.bindPopup(popup_fa7193496ba744979b5d473c714e8f0c)
+        ;
+
+        
+    
+    
+            var marker_11f0015bf63a4dc1a0219126247c00ce = L.marker(
+                [44.2460966, -76.5759588],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_f278fb3c14cb490c8281f0b736152e45 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_11f0015bf63a4dc1a0219126247c00ce.setIcon(icon_f278fb3c14cb490c8281f0b736152e45);
+        
+    
+        var popup_d428db57c3f7442d97d157b3df1b0923 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4bed3a368164ccdb8ab1828948cea51 = $(`<div id="html_d4bed3a368164ccdb8ab1828948cea51" style="width: 100.0%; height: 100.0%;">Sage Flowers</div>`)[0];
+            popup_d428db57c3f7442d97d157b3df1b0923.setContent(html_d4bed3a368164ccdb8ab1828948cea51);
+        
+
+        marker_11f0015bf63a4dc1a0219126247c00ce.bindPopup(popup_d428db57c3f7442d97d157b3df1b0923)
+        ;
+
+        
+    
+    
+            var marker_f3f34651696d4aa0853cd0ab82635b77 = L.marker(
+                [44.2318138, -76.48347940000001],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_7c5fc3f6d7bf413a88d1b9cde62181ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f3f34651696d4aa0853cd0ab82635b77.setIcon(icon_7c5fc3f6d7bf413a88d1b9cde62181ae);
+        
+    
+        var popup_e57c4b21ef144475b5b77f5260c218c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b40e878667a642a389f62d7cf9658b78 = $(`<div id="html_b40e878667a642a389f62d7cf9658b78" style="width: 100.0%; height: 100.0%;">Cakes by Krista</div>`)[0];
+            popup_e57c4b21ef144475b5b77f5260c218c2.setContent(html_b40e878667a642a389f62d7cf9658b78);
+        
+
+        marker_f3f34651696d4aa0853cd0ab82635b77.bindPopup(popup_e57c4b21ef144475b5b77f5260c218c2)
+        ;
+
+        
+    
+    
+            var marker_558a3a0dca5c47308547742ae3c91e9b = L.marker(
+                [44.231758, -76.482919],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_43f66af1a9f74777a50bb2e450c8ec34 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_558a3a0dca5c47308547742ae3c91e9b.setIcon(icon_43f66af1a9f74777a50bb2e450c8ec34);
+        
+    
+        var popup_caa887002e4e4afc950d89ddd7d9e543 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c54623081c934f4b8063239429fecdd2 = $(`<div id="html_c54623081c934f4b8063239429fecdd2" style="width: 100.0%; height: 100.0%;">Golden Rooster Delicatessen</div>`)[0];
+            popup_caa887002e4e4afc950d89ddd7d9e543.setContent(html_c54623081c934f4b8063239429fecdd2);
+        
+
+        marker_558a3a0dca5c47308547742ae3c91e9b.bindPopup(popup_caa887002e4e4afc950d89ddd7d9e543)
+        ;
+
+        
+    
+    
+            var marker_bee9d1f1ea334d048754892f71951648 = L.marker(
+                [44.2428429, -76.5185193],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_a04ff457fdf545818beb0ef9e150d25b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bee9d1f1ea334d048754892f71951648.setIcon(icon_a04ff457fdf545818beb0ef9e150d25b);
+        
+    
+        var popup_5ee80c740ea94f558b0d63dc7e16e6c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_02b78df48d454025b903fa825a89f355 = $(`<div id="html_02b78df48d454025b903fa825a89f355" style="width: 100.0%; height: 100.0%;">Loblaws</div>`)[0];
+            popup_5ee80c740ea94f558b0d63dc7e16e6c0.setContent(html_02b78df48d454025b903fa825a89f355);
+        
+
+        marker_bee9d1f1ea334d048754892f71951648.bindPopup(popup_5ee80c740ea94f558b0d63dc7e16e6c0)
+        ;
+
+        
+    
+    
+            var marker_af6d7e80032648f49fe753ffa7f31e00 = L.marker(
+                [44.23178729999999, -76.4830202],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_f639d30b5e584775b7ee1a9c8b52829d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_af6d7e80032648f49fe753ffa7f31e00.setIcon(icon_f639d30b5e584775b7ee1a9c8b52829d);
+        
+    
+        var popup_53859bf98c0c4f6f9df60a17b9d0177f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a80cba3db9e4a879c39fe6da4d73fbb = $(`<div id="html_2a80cba3db9e4a879c39fe6da4d73fbb" style="width: 100.0%; height: 100.0%;">Cakes by Krista</div>`)[0];
+            popup_53859bf98c0c4f6f9df60a17b9d0177f.setContent(html_2a80cba3db9e4a879c39fe6da4d73fbb);
+        
+
+        marker_af6d7e80032648f49fe753ffa7f31e00.bindPopup(popup_53859bf98c0c4f6f9df60a17b9d0177f)
+        ;
+
+        
+    
+    
+            var marker_c3e2ebd400d44a5184e9c4119f30e2a4 = L.marker(
+                [44.2607838, -76.57253100000001],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_05c16d9682534590945925234f5b0c52 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c3e2ebd400d44a5184e9c4119f30e2a4.setIcon(icon_05c16d9682534590945925234f5b0c52);
+        
+    
+        var popup_d40ac05f6dd346509cdbc44a115b76f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_707ef66d20e34580a56e31b22aa4b922 = $(`<div id="html_707ef66d20e34580a56e31b22aa4b922" style="width: 100.0%; height: 100.0%;">Loblaws</div>`)[0];
+            popup_d40ac05f6dd346509cdbc44a115b76f9.setContent(html_707ef66d20e34580a56e31b22aa4b922);
+        
+
+        marker_c3e2ebd400d44a5184e9c4119f30e2a4.bindPopup(popup_d40ac05f6dd346509cdbc44a115b76f9)
+        ;
+
+        
+    
+    
+            var marker_1c7ae20d46b74571943d4f201cc28b52 = L.marker(
+                [44.2589416, -76.45580770000001],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_79500304988141e389b1cf56ee060538 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1c7ae20d46b74571943d4f201cc28b52.setIcon(icon_79500304988141e389b1cf56ee060538);
+        
+    
+        var popup_3271b175f0cf4732af25d9ec32ecfc52 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21eb09dcc6db493fb945b4527df3ff32 = $(`<div id="html_21eb09dcc6db493fb945b4527df3ff32" style="width: 100.0%; height: 100.0%;">Jame's Valu-mart</div>`)[0];
+            popup_3271b175f0cf4732af25d9ec32ecfc52.setContent(html_21eb09dcc6db493fb945b4527df3ff32);
+        
+
+        marker_1c7ae20d46b74571943d4f201cc28b52.bindPopup(popup_3271b175f0cf4732af25d9ec32ecfc52)
+        ;
+
+        
+    
+    
+            var marker_903c047cf26f4a168e10a2f9275527be = L.marker(
+                [44.2428154, -76.51606819999998],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_0cf854c7e3484b9692f5a707071b44bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_903c047cf26f4a168e10a2f9275527be.setIcon(icon_0cf854c7e3484b9692f5a707071b44bb);
+        
+    
+        var popup_6d001a66179145359fbfe13fd43f0de1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b06f444a20db4a078efaa6918dbb327b = $(`<div id="html_b06f444a20db4a078efaa6918dbb327b" style="width: 100.0%; height: 100.0%;">Baskin-Robbins Kingston</div>`)[0];
+            popup_6d001a66179145359fbfe13fd43f0de1.setContent(html_b06f444a20db4a078efaa6918dbb327b);
+        
+
+        marker_903c047cf26f4a168e10a2f9275527be.bindPopup(popup_6d001a66179145359fbfe13fd43f0de1)
+        ;
+
+        
+    
+    
+            var marker_d3acba9651194f028ed2582e50235051 = L.marker(
+                [44.244538399999996, -76.5792436],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_e36e02da5af64077a5fd3b6f36d22965 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d3acba9651194f028ed2582e50235051.setIcon(icon_e36e02da5af64077a5fd3b6f36d22965);
+        
+    
+        var popup_e380e495733d4bf69dd985331bbc3cde = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8ef367d48943463d847c1efb06d2af87 = $(`<div id="html_8ef367d48943463d847c1efb06d2af87" style="width: 100.0%; height: 100.0%;">Pearl's Sweets and Gift Baskets</div>`)[0];
+            popup_e380e495733d4bf69dd985331bbc3cde.setContent(html_8ef367d48943463d847c1efb06d2af87);
+        
+
+        marker_d3acba9651194f028ed2582e50235051.bindPopup(popup_e380e495733d4bf69dd985331bbc3cde)
+        ;
+
+        
+    
+    
+            var marker_8a7e53435510484fba7dd95146bb6270 = L.marker(
+                [44.2375975, -76.59215520000001],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_41e1c7cca27a4aab807d503c564ad47f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8a7e53435510484fba7dd95146bb6270.setIcon(icon_41e1c7cca27a4aab807d503c564ad47f);
+        
+    
+        var popup_7aabc2fa126d4f9c93e899e296fea96a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f5bccd9d10e44c18a54f0e6465962643 = $(`<div id="html_f5bccd9d10e44c18a54f0e6465962643" style="width: 100.0%; height: 100.0%;">Gord & Kim's No Frills</div>`)[0];
+            popup_7aabc2fa126d4f9c93e899e296fea96a.setContent(html_f5bccd9d10e44c18a54f0e6465962643);
+        
+
+        marker_8a7e53435510484fba7dd95146bb6270.bindPopup(popup_7aabc2fa126d4f9c93e899e296fea96a)
+        ;
+
+        
+    
+    
+            var marker_96f33d62b6a64a34b4a825bec3ce8f2a = L.marker(
+                [44.242878399999995, -76.5032161],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_9c5b7d78c4834172839efc8e5664a374 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_96f33d62b6a64a34b4a825bec3ce8f2a.setIcon(icon_9c5b7d78c4834172839efc8e5664a374);
+        
+    
+        var popup_5d6605e6438640638751ca242ac3eb0f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8ad40eb380f443fbb5b8a11b9639985d = $(`<div id="html_8ad40eb380f443fbb5b8a11b9639985d" style="width: 100.0%; height: 100.0%;">Black Cat Bakery</div>`)[0];
+            popup_5d6605e6438640638751ca242ac3eb0f.setContent(html_8ad40eb380f443fbb5b8a11b9639985d);
+        
+
+        marker_96f33d62b6a64a34b4a825bec3ce8f2a.bindPopup(popup_5d6605e6438640638751ca242ac3eb0f)
+        ;
+
+        
+    
+    
+            var marker_5fe8807b33ca4f5184182953e62a0eb9 = L.marker(
+                [44.2375842, -76.5589918],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_4a4b211945804c79aabda033ad41acf3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5fe8807b33ca4f5184182953e62a0eb9.setIcon(icon_4a4b211945804c79aabda033ad41acf3);
+        
+    
+        var popup_105a90f991e54b92a7bd1c9fc8038c25 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db6f05d6e8294a61a02c301fb625df2f = $(`<div id="html_db6f05d6e8294a61a02c301fb625df2f" style="width: 100.0%; height: 100.0%;">Toast & Jam</div>`)[0];
+            popup_105a90f991e54b92a7bd1c9fc8038c25.setContent(html_db6f05d6e8294a61a02c301fb625df2f);
+        
+
+        marker_5fe8807b33ca4f5184182953e62a0eb9.bindPopup(popup_105a90f991e54b92a7bd1c9fc8038c25)
+        ;
+
+        
+    
+    
+            var marker_78527f5824c04f64a606dd14e64d1a4f = L.marker(
+                [44.23523, -76.5672262],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_cbd2608150d14a21baca1fd2f888abcc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_78527f5824c04f64a606dd14e64d1a4f.setIcon(icon_cbd2608150d14a21baca1fd2f888abcc);
+        
+    
+        var popup_73f6cb20004d430ab89059b6bd38527c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fbaa9b82878e4d469b3428b33a5508cc = $(`<div id="html_fbaa9b82878e4d469b3428b33a5508cc" style="width: 100.0%; height: 100.0%;">Metro</div>`)[0];
+            popup_73f6cb20004d430ab89059b6bd38527c.setContent(html_fbaa9b82878e4d469b3428b33a5508cc);
+        
+
+        marker_78527f5824c04f64a606dd14e64d1a4f.bindPopup(popup_73f6cb20004d430ab89059b6bd38527c)
+        ;
+
+        
+    
+    
+            var marker_36d4d81e15ff4c6dbe4a2190bafc674c = L.marker(
+                [44.2515339, -76.5900125],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_7bab4e627e3d4e5eb41012275d7d81f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_36d4d81e15ff4c6dbe4a2190bafc674c.setIcon(icon_7bab4e627e3d4e5eb41012275d7d81f0);
+        
+    
+        var popup_636dc7e8764f42dea7c394f0e8e89cfd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_91d1702eb61044f294b9c60dfdd7e0f7 = $(`<div id="html_91d1702eb61044f294b9c60dfdd7e0f7" style="width: 100.0%; height: 100.0%;">Metro</div>`)[0];
+            popup_636dc7e8764f42dea7c394f0e8e89cfd.setContent(html_91d1702eb61044f294b9c60dfdd7e0f7);
+        
+
+        marker_36d4d81e15ff4c6dbe4a2190bafc674c.bindPopup(popup_636dc7e8764f42dea7c394f0e8e89cfd)
+        ;
+
+        
+    
+    
+            var marker_da5b9c5298c04fa48301c6bcf7b5a435 = L.marker(
+                [44.260177500000005, -76.5605635],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_71df843e6b55438c8e7a00f9c4dd3aa3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_da5b9c5298c04fa48301c6bcf7b5a435.setIcon(icon_71df843e6b55438c8e7a00f9c4dd3aa3);
+        
+    
+        var popup_ca442d30936f4356a37530f946e62dfd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db3c0280fda44830a8cfdd119b2108c1 = $(`<div id="html_db3c0280fda44830a8cfdd119b2108c1" style="width: 100.0%; height: 100.0%;">Costco Wholesale</div>`)[0];
+            popup_ca442d30936f4356a37530f946e62dfd.setContent(html_db3c0280fda44830a8cfdd119b2108c1);
+        
+
+        marker_da5b9c5298c04fa48301c6bcf7b5a435.bindPopup(popup_ca442d30936f4356a37530f946e62dfd)
+        ;
+
+        
+    
+    
+            var marker_e152b4616a6440729b7a1c090aa91675 = L.marker(
+                [44.2643616, -76.50031210000002],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_1af0022cd6dc45718ad83758a6d9ca74 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e152b4616a6440729b7a1c090aa91675.setIcon(icon_1af0022cd6dc45718ad83758a6d9ca74);
+        
+    
+        var popup_c74560ecc0c74684b068a8becc658dc2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e103164c5674fcf86045bbb4252ac71 = $(`<div id="html_9e103164c5674fcf86045bbb4252ac71" style="width: 100.0%; height: 100.0%;">Grant's No Frills</div>`)[0];
+            popup_c74560ecc0c74684b068a8becc658dc2.setContent(html_9e103164c5674fcf86045bbb4252ac71);
+        
+
+        marker_e152b4616a6440729b7a1c090aa91675.bindPopup(popup_c74560ecc0c74684b068a8becc658dc2)
+        ;
+
+        
+    
+    
+            var marker_941f292059684c8c96647f973b08da6c = L.marker(
+                [44.232418599999995, -76.49173979999998],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_8c65687ee858426f9ec338c3e34ad39b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_941f292059684c8c96647f973b08da6c.setIcon(icon_8c65687ee858426f9ec338c3e34ad39b);
+        
+    
+        var popup_10af7a4c34d146ac9f35edfc7c48dd31 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0fdf74b585f4e85a4fc7e49ec74cf5f = $(`<div id="html_e0fdf74b585f4e85a4fc7e49ec74cf5f" style="width: 100.0%; height: 100.0%;">Metro</div>`)[0];
+            popup_10af7a4c34d146ac9f35edfc7c48dd31.setContent(html_e0fdf74b585f4e85a4fc7e49ec74cf5f);
+        
+
+        marker_941f292059684c8c96647f973b08da6c.bindPopup(popup_10af7a4c34d146ac9f35edfc7c48dd31)
+        ;
+
+        
+    
+    
+            var marker_af9df40003cf4e4485e1fe6b37b783aa = L.marker(
+                [44.2369558, -76.57927600000001],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_23385ba4205b49b5af2e7c82486d6bfa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_af9df40003cf4e4485e1fe6b37b783aa.setIcon(icon_23385ba4205b49b5af2e7c82486d6bfa);
+        
+    
+        var popup_d2725bb93b104f159ffa3d9cffa12299 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b633f55896249b994732b2f42dc14b1 = $(`<div id="html_4b633f55896249b994732b2f42dc14b1" style="width: 100.0%; height: 100.0%;">Country Style</div>`)[0];
+            popup_d2725bb93b104f159ffa3d9cffa12299.setContent(html_4b633f55896249b994732b2f42dc14b1);
+        
+
+        marker_af9df40003cf4e4485e1fe6b37b783aa.bindPopup(popup_d2725bb93b104f159ffa3d9cffa12299)
+        ;
+
+        
+    
+    
+            var marker_9d870355a1c94542b0202061219887fa = L.marker(
+                [44.258298499999995, -76.5183309],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_956cc8443446448ebbbb4921d8f0efd1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9d870355a1c94542b0202061219887fa.setIcon(icon_956cc8443446448ebbbb4921d8f0efd1);
+        
+    
+        var popup_123f6b96c7874f16a78045752511ced4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b12356f17fb48008fa57d640c602720 = $(`<div id="html_5b12356f17fb48008fa57d640c602720" style="width: 100.0%; height: 100.0%;">Country Style</div>`)[0];
+            popup_123f6b96c7874f16a78045752511ced4.setContent(html_5b12356f17fb48008fa57d640c602720);
+        
+
+        marker_9d870355a1c94542b0202061219887fa.bindPopup(popup_123f6b96c7874f16a78045752511ced4)
+        ;
+
+        
+    
+    
+            var marker_f65dd01457974e898162f9d4bb8d342e = L.marker(
+                [44.2460966, -76.5759588],
+                {}
+            ).addTo(map_14db3463faf94ba4bea6b7dae23f2c08);
+        
+    
+            var icon_0e4394dfeaed42e38d8c94df74279868 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f65dd01457974e898162f9d4bb8d342e.setIcon(icon_0e4394dfeaed42e38d8c94df74279868);
+        
+    
+        var popup_c174b7459e8b4389a07079edfc14d973 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea93cf9d39a94cb5bf5bc740ca3aa324 = $(`<div id="html_ea93cf9d39a94cb5bf5bc740ca3aa324" style="width: 100.0%; height: 100.0%;">Sage Flowers</div>`)[0];
+            popup_c174b7459e8b4389a07079edfc14d973.setContent(html_ea93cf9d39a94cb5bf5bc740ca3aa324);
+        
+
+        marker_f65dd01457974e898162f9d4bb8d342e.bindPopup(popup_c174b7459e8b4389a07079edfc14d973)
+        ;
+
+        
+    
+</script>
