@@ -1,9 +1,12 @@
 # SmartStart 
-The app that helps new business holders to choose the best location for their business to come.  
+Findint best locations to start a new business
 
-##  Description
-More than half of new small businesses in Canada do not survive through their first 10 years, mostly due to poor planning. This is particularly important in Canada for those immigrants who are granted their citizenship for investment purposes, as they have very limited knowledge about the city and neighborhood they are targeting. I’m using Canada’s Census Population Data and Google maps search results API to develop a web-app that provides a list of optimized locations for a given
-business in a City. The application specifically targets upcoming small businesses whose target customers are people residing in their vicinity. This project uses multi-objective multi-variant optimization algorithm to maximize potential customer flow and minimize proximity to similar businesses.
+##  Problem
+According to [Key Small Business Statistics Journal (Jan. 2019 edition)](http://www.ic.gc.ca/eic/site/061.nsf/eng/h_02689.html), less than 45% of small businesses (defined by number of employess in 5-100 range) survive through the first 10 years. 
+
+![Key Small Business Statistics survival plot](https://github.com/Payampakarha/SmartStart/images/Small_business_stats.png "survival plot")
+
+
 
 ## Data 
 The application uses Canada's census data (2011,2016) for population per neighbourhoud within a city to interpolate an estimation for population density for every neighbourhoud. For locations of various business within a city, Google Maps Search Results API is used to query business keywords and save the results. 
