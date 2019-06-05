@@ -45,7 +45,7 @@ For locations of various business within a city, [Google Maps Search Results API
 ### Analysis procedure
 The following image, shows the schematics of the analysis procedure used for SmartStart. 
 
-![Pipeline Flowchart](https://github.com/Payampakarha/SmartStart/blob/master/images/Pipeline_flowchart.png "pipeline flowchart")
+![Pipeline Flowchart](https://github.com/Payampakarha/SmartStart/blob/master/images/Pipline_flowchart.png "pipeline flowchart")
 
 . The flowchart shows the flow of the data, as it is grabbed from the source, processed, and visualized in the app. Each arrow on this figure represents a notebook, in this repository, except for the last (most right) that represents the whole web application folder. 
 
